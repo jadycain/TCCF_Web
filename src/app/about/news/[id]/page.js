@@ -66,14 +66,17 @@ const NewsDetailPage = async ({ params }) => {
                   case "noneStyleList": {
                     return (
                       <Fragment>
-                        {item.content.map((el) => (
-                          <div className="articleWrapper__container_content__nonelistWrapper">
+                        {item.content.map((el, index) => (
+                          <div
+                            className="articleWrapper__container_content__nonelistWrapper"
+                            key={index}
+                          >
                             <div className="articleWrapper__container_content__nonelistWrapper_listTitle">
                               {el.title}
                             </div>
                             <ul className="articleWrapper__container_content__nonelistWrapper_list">
-                              {el.item.map((value) => (
-                                <li>{value}</li>
+                              {el.item.map((value, index) => (
+                                <li key={index}>{value}</li>
                               ))}
                             </ul>
                           </div>

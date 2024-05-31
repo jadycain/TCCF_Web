@@ -101,10 +101,10 @@ export default function LatestPage() {
           <div className="pageWrapper__container_contentWrapper__content">
             <div className={styles.latest__cardWrapper}>
               {activeTab === "all"
-                ? newsCardData.map((news) => <Card {...news} />)
+                ? newsCardData.map((news) => <Card {...news} key={news.id} />)
                 : newsCardData
                     .filter((news) => news.type === activeTab)
-                    .map((news) => <Card {...news} />)}
+                    .map((news) => <Card {...news} key={news.id} />)}
             </div>
           </div>
         </div>
