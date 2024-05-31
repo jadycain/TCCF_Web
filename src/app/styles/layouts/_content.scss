@@ -1,0 +1,21 @@
+.layoutWrapper {
+   
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    
+    
+
+    &__container {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        // width: calc(100% - 250px);
+    
+    }
+    
+
+
+
+}

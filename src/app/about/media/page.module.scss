@@ -1,0 +1,63 @@
+@import '../../styles/style.scss';
+
+.media {
+   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    &__downloadBox {
+
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        border: 1px solid $gray;
+        padding: 40px;
+
+        &_container {
+           
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+
+            &__content {
+               
+                display: flex;
+                align-items: center;
+                width: 100%;
+
+                &_number {
+                  
+                    font-size: 50px;
+                    color: $primary-green;
+                }
+        
+                &_title {
+                    
+                    width: 100%;
+                    text-align: center;
+                    font-size: 30px;
+                    
+                }
+            }
+
+            &__buttonWrapper {
+                margin-top: 50px;
+            }
+
+
+
+
+          
+        }
+
+        
+
+       
+
+    }
+    
+
+}

@@ -1,0 +1,100 @@
+.introduceSection {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+
+    
+
+    &__container {
+        width: 80vw;
+        display: flex;
+        justify-content: space-between;
+
+
+        &_image {
+
+            width: clamp(300px, 40%, 500px);
+           
+            
+           
+
+        }
+
+        &_intro {
+
+            width: 70%;
+            border: 1px solid blue;
+            padding: 40px;
+           
+
+
+            &__title {
+
+                font-size: 30px;
+                font-weight: 500;
+                text-align: center;
+                margin-bottom: 30px;
+
+            }
+
+            &__content {
+                text-align: justify;
+            }
+        }
+    }
+
+    &__progressBarWrapper {
+
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+
+        &_progressBarList {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            gap: 5px;
+
+            &__progressBarItem {
+                background-color: #f3f3f3;
+                width: 100%;
+                padding: 10px 0;
+                display: flex;
+                justify-content: center;
+
+                &_icon {
+                    
+                    display: inline-flex;
+                    align-items: center;
+                    margin-right: 10px;
+                    font-size: 20px;
+                }
+            }
+        }
+
+        &_progressBar {
+    
+           position: relative;
+
+
+            &__progress {
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                height: 10px;
+                background: rgb(210, 59, 210);
+                transform-origin: 0%;
+            }
+        }
+
+
+    }
+
+   
+}

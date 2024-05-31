@@ -1,0 +1,22 @@
+.forum {
+
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to top, transparent, #fff);
+
+    
+
+    img {
+        
+        position: absolute;
+        z-index: 0;
+        bottom: -20px;
+        right: -100px;
+        opacity: 0.5;
+      
+        
+
+    }
+}

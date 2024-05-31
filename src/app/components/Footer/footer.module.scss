@@ -1,0 +1,103 @@
+@import '../../styles/style.scss';
+
+.footer {
+    background-color: $black;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $white;
+
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+
+        &_listWrapper {
+        
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid $white;
+            align-items: center;
+            padding-bottom: 20px;
+
+            &__logo {
+                
+                
+            }
+
+            &__menu {
+                color: $white;
+
+                li {
+                    display: inline-block;
+                    margin: 0 10px;
+                 
+                    a {
+                  
+                        text-decoration: none;
+                        
+                        &:hover {
+                            color: $primary-green;
+                        }
+                    }
+                }
+
+            }
+        }
+
+        &_socialWrapper {
+            
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 30px;
+            padding-top: 10px;
+
+            &__social {
+               
+                display: flex;
+                align-items: baseline;
+                list-style: none;
+                right: 0;
+                gap: 15px;
+               
+                
+                li {
+                    display: inline-flex;
+                    align-items: center;
+                    font-size: 25px;
+
+                    a {
+                        display: inline-flex;
+                        align-items: center;
+                    }
+                }
+            }
+
+        }
+        
+
+        &_copyRightWrapper {
+
+            display: flex;
+            justify-content: center;
+            
+            padding-top: 20px;
+            position: relative;
+            
+
+            &__copyRight {
+              
+                font-size: 12px;
+                color: rgba(255, 255, 255, 0.5);
+               
+            }
+
+           
+        
+        }
+    }
+    
+}
