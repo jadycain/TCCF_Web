@@ -257,8 +257,8 @@ export default function PrivacyPolicyPage() {
             {data[0].title}
           </h1>
           <div className="pageWrapper__container_contentWrapper__content">
-            {data[0].article.map((item) => (
-              <Fragment>
+            {data[0].article.map((item, index) => (
+              <Fragment key={index}>
                 {(() => {
                   switch (item.type) {
                     case "paragraph":
@@ -272,15 +272,18 @@ export default function PrivacyPolicyPage() {
                     case "list":
                       return (
                         <ul className="pageWrapper__container_contentWrapper__content_list">
-                          {item.text.map((el) => (
-                            <Fragment>
+                          {item.text.map((el, index) => (
+                            <Fragment key={index}>
                               <li className="pageWrapper__container_contentWrapper__content_list__item">
                                 {el.ch}
                               </li>
                               {el.sublist && (
                                 <ul className="pageWrapper__container_contentWrapper__content_list__sublist">
-                                  {el.sublist.map((sub) => (
-                                    <li className="pageWrapper__container_contentWrapper__content_list__sublist_sublistItem">
+                                  {el.sublist.map((sub, index) => (
+                                    <li
+                                      key={index}
+                                      className="pageWrapper__container_contentWrapper__content_list__sublist_sublistItem"
+                                    >
                                       {sub.ch}
                                     </li>
                                   ))}

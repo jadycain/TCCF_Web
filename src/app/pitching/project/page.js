@@ -62,8 +62,11 @@ export default function MarketPage() {
               AWARD：Best Project」獎項及獎金美金三萬元，更多獎項將陸續公布。
             </p>
 
-            {articleData[0].features.map((data) => (
-              <div className="pageWrapper__container_contentWrapper__content_paragraphWrapper">
+            {articleData[0].features.map((data, index) => (
+              <div
+                className="pageWrapper__container_contentWrapper__content_paragraphWrapper"
+                key={index}
+              >
                 <div className="pageWrapper__container_contentWrapper__content_paragraphWrapper__title">
                   {data.title}
                 </div>
@@ -74,8 +77,11 @@ export default function MarketPage() {
             ))}
 
             <ul className="pageWrapper__container_contentWrapper__content_list">
-              {articleData[0].list.map((data) => (
-                <li className="pageWrapper__container_contentWrapper__content_list__item">
+              {articleData[0].list.map((data, index) => (
+                <li
+                  className="pageWrapper__container_contentWrapper__content_list__item"
+                  key={index}
+                >
                   {data.content}
                 </li>
               ))}

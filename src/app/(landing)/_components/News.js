@@ -60,7 +60,7 @@ export default function News() {
         <h2 className={styles.newsSection__container_title}>最新消息</h2>
         <Swiper spaceBetween={30} slidesPerView={3} modules={[Pagination]}>
           {newsCardData.map((news) => (
-            <SwiperSlide>
+            <SwiperSlide key={news.id}>
               <Card {...news} />
             </SwiperSlide>
           ))}

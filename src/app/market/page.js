@@ -68,8 +68,11 @@ export default function MarketPage() {
               的版權交易，擴大結合影視產業鏈，涵蓋內容開發、拍攝資源、影像技術等各領域業者與專業人士，探索商業合作與交流，拓展全球市場。
             </p>
 
-            {articleData[0].features.map((data) => (
-              <div className="pageWrapper__container_contentWrapper__content_paragraphWrapper">
+            {articleData[0].features.map((data, index) => (
+              <div
+                className="pageWrapper__container_contentWrapper__content_paragraphWrapper"
+                key={index}
+              >
                 <div className="pageWrapper__container_contentWrapper__content_paragraphWrapper__title">
                   {data.title}
                 </div>

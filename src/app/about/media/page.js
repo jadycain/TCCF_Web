@@ -27,7 +27,7 @@ export default function MediaPage() {
           <div className="pageWrapper__container_contentWrapper__content">
             <div className={styles.media}>
               {downloadData.map((data) => (
-                <div className={styles.media__downloadBox}>
+                <div className={styles.media__downloadBox} key={data.id}>
                   <div className={styles.media__downloadBox_container}>
                     <div
                       className={styles.media__downloadBox_container__content}
