@@ -12,10 +12,11 @@
         width: 80vw;
         display: flex;
         justify-content: space-between;
+        gap: 50px;
 
 
         &_image {
-
+            
             width: clamp(300px, 40%, 500px);
            
             
@@ -26,7 +27,7 @@
         &_intro {
 
             width: 70%;
-            border: 1px solid blue;
+
             padding: 40px;
            
 
