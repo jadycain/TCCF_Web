@@ -20,7 +20,7 @@ export default function News() {
       time: "2024/05/10",
       linkText: "大會公告",
       link: "about/news/20240510",
-      image: "/images/news/news_1.jpg",
+      image: "/images/about/news/20240510/banner.jpg",
       tag: "大會新聞",
     },
     {
@@ -29,7 +29,7 @@ export default function News() {
       time: "2024/05/02",
       linkText: "大會公告",
       link: "about/news/20240502",
-      image: "/images/news/news_2.png",
+      image: "/images/about/announcement/20240502/banner.jpg",
       tag: "大會公告",
     },
     {
@@ -39,7 +39,7 @@ export default function News() {
       time: "2023/11/15",
       linkText: "大會公告",
       link: "about/news/20231115",
-      image: "/images/news/news_3.png",
+      image: "/images/about/news/20231115/banner.jpg",
       tag: "大會新聞",
     },
     {
@@ -49,7 +49,7 @@ export default function News() {
       time: "2023/11/10",
       linkText: "大會公告",
       link: "about/news/20231110",
-      image: "/images/news/news_4.jpeg",
+      image: "/images/about/news/20231110/banner.jpeg",
       tag: "大會新聞",
     },
   ];
