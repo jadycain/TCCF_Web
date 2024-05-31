@@ -10,7 +10,7 @@ export default function ForumPage() {
           <ImageLoader
             src={"/images/forum/background.png"}
             sizes={"100%"}
-            style={{ width: "450px", height: "auto" }}
+            style={{ width: "auto", height: "100%" }}
           />
         </div>
 
