@@ -1,0 +1,15 @@
+{
+    "IndexPage": {
+      "title": "Hello world!"
+    },
+    "Nav": {
+      "about": "ABOUT TCCF",
+      "pitching": "PITCHING",
+      "market": "MARKET",
+      "forum": "FORUM",
+      "news": "NEWS",
+      "press": "PRESS",
+      "project": "Project to Screen",
+      "story": "Story to Screen"
+    }
+}
