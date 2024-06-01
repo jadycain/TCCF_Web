@@ -7,7 +7,11 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 
+import { useTranslations } from "next-intl";
+
 export default function Footer() {
+  const t = useTranslations("Footer");
+
   return (
     <div className={styles.footer}>
       <div className={styles.footer__container}>
@@ -22,7 +26,7 @@ export default function Footer() {
           </div>
           <ul className={styles.footer__container_listWrapper__menu}>
             <li>
-              <Link href={"/privacy_policy"}>隱私權及安全政策</Link>
+              <Link href={"/privacy_policy"}>{t("privacy_policy")}</Link>
             </li>
           </ul>
         </div>

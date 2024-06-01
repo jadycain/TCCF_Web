@@ -11,5 +11,21 @@
       "press": "PRESS",
       "project": "Project to Screen",
       "story": "Story to Screen"
+    },
+    "Footer": {
+      "privacy_policy": "PRIVACY POLICY"
+    },
+    "NewsTag": {
+      "tag_news": "NEWS",
+      "tag_announcement": "ANNOUNCEMENT"
+    },
+    "NewsCard": {
+      "20240510_title": "Call for Projects: Over $3 Million Investment for International Audiovisual Contents at TCCF PITCHING 2024",
+      "20240502_title": "TCCF 2024 Dates Announced",
+      "20231115_title": "A Record Number of International Professionals Attend the Fourth Edition of TCCF",
+      "20231110_title": "Taiwan-Japan Heartfelt Documentary \"After the Snowmelt \" and Filipino Fantasy Feature \"Mother Maybe \" Win Big at TCCF 2023"
+    },
+    "actionButton": {
+      "read_more": "Read More"
     }
 }

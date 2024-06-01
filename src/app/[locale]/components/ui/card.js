@@ -12,9 +12,10 @@ export default function Card({ title, time, image, tag, link }) {
             sizes={"100%"}
             style={{
               objectFit: "cover",
+              objectPosition: "top",
             }}
             fill={true}
-            alt={"hero"}
+            alt={"news"}
           />
         </div>
 

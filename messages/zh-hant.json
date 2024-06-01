@@ -11,6 +11,21 @@
       "press": "媒體報導",
       "project": "企畫專場",
       "story": "故事專場"
-     
+    },
+    "Footer": {
+      "privacy_policy": "隱私權及安全政策"
+    },
+    "NewsTag": {
+      "tag_news": "大會新聞",
+      "tag_announcement": "大會公告"
+    },
+    "NewsCard": {
+      "20240510_title": "「TCCF PITCHING 提案大會」 總投資金額上看新台幣一億 全球徵件六月起跑 催生影視佳作",
+      "20240502_title": "2024 TCCF 創意內容大會日期與活動單元公佈",
+      "20231115_title": "「2023 TCCF 創意內容大會」圓滿成功！ 法日韓美星等 29 國專業人士齊聚臺北　預估延伸交易金額超越去年成績",
+      "20231110_title": "2023 TCCF 提案大會《雪水消融的季節》、《Mother Maybe》勇奪 3 萬美金雙首獎"
+    },
+    "actionButton": {
+      "read_more": "查看更多"
     }
-}
+} 

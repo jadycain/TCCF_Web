@@ -27,14 +27,15 @@
         display: inline-flex;
        position: relative;
        height: 200px;
-       width: 100%;
+
+      
     }
 
     &__container {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        padding: 20px 30px;
+        padding: 20px;
         gap: 15px;
         min-height: clamp(250px, 1.64vw , 315px);
         height: auto;
@@ -55,7 +56,7 @@
             font-weight: 500;
             font-size: clamp(18px, 1.25vw, 24px);
             line-height: 1.5;
-            text-align: justify;
+            text-align: left;
         }
 
         &_time {
