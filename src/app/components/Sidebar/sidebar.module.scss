@@ -12,6 +12,8 @@
     display: flex;
     justify-content: center;
     z-index: 2;
+    font-size: clamp(15px, 0.833vw, 16px);
+   
 
     @include RWD(sp820) {
 
@@ -126,6 +128,7 @@
                     width: 100%;
                     align-items: center;
                     justify-content: center;
+                
                    
                     @include RWD(sp820) {
             
