@@ -186,9 +186,8 @@ export default function Header() {
         >
           <div className={styles.header__container_nav__container}>
             {links.map((link) => (
-              <Fragment>
+              <Fragment key={link.href}>
                 <Link
-                  key={link.href}
                   href={link.href}
                   className={styles.header__container_nav__container_mainLink}
                   onMouseEnter={() => handleEnter(link.href)}
@@ -231,6 +230,7 @@ export default function Header() {
                 {link.isOpen &&
                   link?.menu?.map((sub) => (
                     <ul
+                      key={sub.link}
                       className={
                         styles.header__container_nav__container_subMenu
                       }

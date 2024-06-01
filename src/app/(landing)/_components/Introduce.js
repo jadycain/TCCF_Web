@@ -40,27 +40,6 @@ import {
 //   );
 // }
 
-function MyComponent() {
-  const { scrollYProgress } = useScroll();
-  const items = [1, 2, 3, 4]; // 你的四個元素
-
-  return (
-    <div>
-      {items.map((item, index) => {
-        const progress = useTransform(scrollYProgress, [0, 1], [0, 100]);
-        return (
-          <motion.div key={index}>
-            <motion.span style={{ scale: scrollYProgress }}>
-              Item {item}
-            </motion.span>
-            <motion.span>{progress}</motion.span>
-          </motion.div>
-        );
-      })}
-    </div>
-  );
-}
-
 function Value({ progress }) {
   return (
     <div className="fixed">
