@@ -13,7 +13,12 @@ export default function Footer() {
       <div className={styles.footer__container}>
         <div className={styles.footer__container_listWrapper}>
           <div className={styles.footer__container_listWrapper__logo}>
-            <img src={"/images/logo_white.svg"} alt={"logo"} />
+            <img
+              src={"/images/logo_white.svg"}
+              alt={"logo"}
+              sizes={"100%"}
+              style={{ width: "100%", height: "auto" }}
+            />
           </div>
           <ul className={styles.footer__container_listWrapper__menu}>
             <li>

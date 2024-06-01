@@ -265,9 +265,9 @@ export default function PrivacyPolicyPage() {
                       return <p>{item.text.ch}</p>;
                     case "paragraphTitle":
                       return (
-                        <p className="pageWrapper__container_contentWrapper__content_paragraphWrapper__title">
+                        <h2 className="pageWrapper__container_contentWrapper__content_paragraphWrapper__title">
                           {item.text.ch}
-                        </p>
+                        </h2>
                       );
                     case "list":
                       return (

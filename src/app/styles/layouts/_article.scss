@@ -1,23 +1,38 @@
 .articleWrapper {
   
-    width: 100%;
     display: flex;
+    align-items: center;
     justify-content: center;
+    width: calc(100% - 250px);
+    padding-top: 100px;
+
+    @include RWD(sp820) {
+        width: 100%;
+    }
+    
+ 
 
     &__container {
     
         width: 80%;
         padding: 50px 0 100px 0;
 
+        @include RWD(sp820) {
+            width: 90%;
+        }
+
 
         &_title {
            
-            margin-bottom: 30px;
+            font-size: clamp(30px, 1.822vw, 35px);
+            margin-top: 0;
+            line-height: 1.5;
         }
 
         &_banner {
             position: relative;
             width: 100%;
+            display: inline-flex;
        
         }
 
@@ -27,14 +42,16 @@
             text-align: justify;
 
             &__subtitle {
-                
-                font-weight: 500;
+            
                 margin: 30px 0;
+                font-size: clamp(22px, 1.5625vw, 30px);
+                line-height: 1.5;
             }
 
             &__innertitle {
                
-                
+                font-size: clamp(20px, 1.40625vw, 27px);
+                line-height: 1.5;
             }
 
             &__images {
@@ -44,8 +61,9 @@
             }
 
             &__paragraphTitle {
-              font-weight: 500;
-                
+             
+                font-weight: 700;
+                margin-bottom: 0;
             }
     
 
@@ -55,12 +73,17 @@
 
             &__nonelistWrapper {
 
-                &_listTitle {
+                text-align: left;
+               
 
+                &_listTitle {
+                    
                 }
 
                 &_list {
-                    list-style-position: inside;
+                    list-style: none;
+                    padding: 0;
+                    // list-style-position: inside;
                 }
             }
 
@@ -71,7 +94,7 @@
                 }
 
                 &_list {
-                    list-style-position: inside;
+                    // list-style-position: inside;
                 }
             }
         }

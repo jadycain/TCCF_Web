@@ -1,18 +1,27 @@
+
+@import '../styles/style.scss';
+
 .pitching {
 
     position: absolute;
-    top: 0;
-    height: 100%;
+    bottom: 0;
+   height: 100%;
     width: 100%;
    
+    @include RWD(lg){
 
+        height: 50%;
+
+        // height: 50vh;
+        
+    }
     
 
     img {
         
         position: absolute;
         z-index: 0;
-        left: -60%;
+        left: -55%;
         bottom: 0;
         opacity: 0.5;
         

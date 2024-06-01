@@ -8,43 +8,23 @@ export default function AboutPage() {
       <div className="pageWrapper__container">
         <div className={styles.about}>
           <ImageLoader
-            src={"/images/pitching/background.png"}
+            src={"/images/about/background.png"}
             sizes={"100%"}
-            style={{ width: "auto", height: "90%" }}
+            style={{ width: "auto", height: "100%" }}
           />
         </div>
         <div className="pageWrapper__container_contentWrapper">
           <h1 className="pageWrapper__container_contentWrapper__title">
-            PITCHING
+            ABOUT TCCF
           </h1>
           <div className="pageWrapper__container_contentWrapper__content">
             <p>
-              「TCCF PITCHING
-              提案大會」匯集國內外市場潛力內容提案，囊括長片、影集、動畫、紀錄片到出版、漫畫、原創故事概念，吸引來自全球內容產業專業人士參與，媒合提案與國際資源及資金，催生全球熱門作品。
+              「TCCF
+              創意內容大會」是亞洲重要內容產業盛會，每年吸引全球多國買賣家齊聚交流洽商，共分成「PITCHING
+              提案大會」、「MARKET 市場展」與「FORUM 國際論壇」三大單元。TCCF
+              持續提供文化內容產業商務服務，媒合潛力 IP
+              提案與國際資金，帶動全球專業人士商務交易與開發，交流實務經驗及產業未來趨勢，為內容產製與專業人才對接資源。
             </p>
-
-            <p>Project to Screen 企畫專場</p>
-
-            <p>
-              「Project to
-              Screen企畫專場」囊括長片、劇集、動畫及紀錄片等類別，將由國際評審選出吸睛提案，同時「文策學院
-              TAICCA School」
-              與國際單位合作提案項目也將在此首次曝光。本專場將致力媒合潛力企畫與資金，促進內容對接國際市場，強化產業網絡連結，催生更多優秀影視作品。
-            </p>
-
-            <p>Story to Screen 故事專場</p>
-
-            <p>
-              「Project to
-              Screen企畫專場」囊括長片、劇集、動畫及紀錄片等類別，將由國際評審選出吸睛提案，同時「文策學院
-              TAICCA School」
-              與國際單位合作提案項目也將在此首次曝光。本專場將致力媒合潛力企畫與資金，促進內容對接國際市場，強化產業網絡連結，催生更多優秀影視作品。
-            </p>
-          </div>
-
-          <div className="pageWrapper__container_contentWrapper__buttonWrapper">
-            <Button link={"/"} linkText={"徵展辦法"} />
-            <Button link={"/"} linkText={"我要報名"} />
           </div>
         </div>
       </div>

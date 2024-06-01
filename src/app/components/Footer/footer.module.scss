@@ -2,17 +2,21 @@
 
 .footer {
     background-color: $black;
-    height: 270px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: $white;
+    padding: 40px 0;
 
 
     &__container {
         display: flex;
         flex-direction: column;
         width: 80vw;
+
+        @include RWD(sm) {
+            width: 90vw;
+        }
 
         &_listWrapper {
         
@@ -24,15 +28,27 @@
 
             &__logo {
                 
+                border: 1px solid rebeccapurple;
+
+                @include RWD(sm) {
+                   width: 150px;
+                   position: relative;
+                   display: flex;
+                   align-items: center;
+                   justify-content: center;
+                }
                 
             }
 
             &__menu {
                 color: $white;
+                margin: 0;
 
                 li {
                     display: inline-block;
                     margin: 0 10px;
+                    font-size: clamp(12px, 0.833vw, 16px);
+                    margin: 0;
                  
                     a {
                   
@@ -55,6 +71,11 @@
             gap: 30px;
             padding-top: 10px;
 
+            span {
+
+                font-size: clamp(12px, 0.833vw, 16px);
+            }
+
             &__social {
                
                 display: flex;
@@ -62,12 +83,23 @@
                 list-style: none;
                 right: 0;
                 gap: 15px;
+                margin: 0;
+
+                @include RWD(sm) {
+                    gap: 10px;
+                }
                
                 
                 li {
                     display: inline-flex;
                     align-items: center;
                     font-size: 25px;
+
+                    @include RWD(sm) {
+                        font-size: 20px;
+                    }
+                   
+                    
 
                     a {
                         display: inline-flex;
@@ -92,6 +124,12 @@
               
                 font-size: 12px;
                 color: rgba(255, 255, 255, 0.5);
+                text-align: center;
+                line-height: 1.5;
+
+                @include RWD(sm) {
+                    font-size: 10px;
+                }
                
             }
 

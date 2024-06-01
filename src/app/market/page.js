@@ -73,14 +73,29 @@ export default function MarketPage() {
                 className="pageWrapper__container_contentWrapper__content_paragraphWrapper"
                 key={index}
               >
-                <div className="pageWrapper__container_contentWrapper__content_paragraphWrapper__title">
+                <h2 className="pageWrapper__container_contentWrapper__content_paragraphWrapper__title">
                   {data.title}
-                </div>
+                </h2>
                 <div className="pageWrapper__container_contentWrapper__content_paragraphWrapper__paragraph">
                   {data.content}
                 </div>
               </div>
             ))}
+          </div>
+
+          <div className="pageWrapper__container_contentWrapper__buttonWrapper">
+            <Button
+              link={
+                "https://docs.google.com/document/d/1XgJOLqvE8zO-CatRcO9Bg56sD9XKgzwtAKzphq6CBv4/edit?usp=sharing"
+              }
+              target="_blank"
+              linkText={"徵展辦法"}
+            />
+            <Button
+              link={"https://dash.taicca.tw/brd/tccf-me-2024/apply"}
+              target="_blank"
+              linkText={"我要報名"}
+            />
           </div>
         </div>
       </div>

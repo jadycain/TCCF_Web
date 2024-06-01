@@ -6,6 +6,12 @@
     align-items: center;
     justify-content: center;
     width: calc(100% - 250px);
+    padding-top: 100px;
+
+    @include RWD(sp820) {
+        width: 100%;
+    }
+    
    
 
 
@@ -16,6 +22,8 @@
         width: 100%;
         position: relative;
         padding: 50px 0 100px 0;
+        display: flex;
+       justify-content: center;
     
 
 
@@ -26,21 +34,28 @@
             align-items: center;
             justify-content: center;
             flex-direction: column;
+            width: 80%;
+
+            @include RWD(sp820) {
+                width: 90%;
+            }
             
 
 
             &__title {
-                font-size: 40px;
-                margin-bottom: 20px;
+                font-size: clamp(30px, 1.822vw, 35px);
+                margin-top: 0;
+                line-height: 1.5;
+               
             }
 
           
 
             &__content {
-                width: 80%;
+              
                 text-align: justify;
-                margin-top: 20px;
                 min-height: calc(100vh - 300px);
+                width: 100%;
         
 
                 p {
@@ -52,9 +67,10 @@
                     margin-bottom: 30px;
 
                     &__title {
-                        font-weight: bold;
-                        margin-bottom: 10px;
-                        font-size: 20px;
+                        margin-bottom: 0;
+                        line-height: 1.5;
+                        text-align: left;
+                        font-size: clamp(24.5px, 1.666vw, 32px);
                     }
 
                     &__paragraph {
@@ -65,19 +81,20 @@
                 &_list {
 
                     list-style-position: outside;
-                    margin-left: 20px;
+                    padding: 25px;
+                    
 
                     &__item {
                         margin: 10px 0;
                     }
 
                     &__sublist {
-                        margin-left: 30px;
+                        margin: 0;
                         list-style-position: outside;
 
                         &_sublistItem{
                             list-style-type: circle;
-                            margin-left: 20px;
+                            
                         }
 
                     }
@@ -89,7 +106,7 @@
                 align-items: center;
                 justify-content: center;
                 gap: 30px;
-                width: 80%;
+                width: 100%;
                 margin-top: 50px;
             }
 

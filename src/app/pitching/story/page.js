@@ -1,5 +1,6 @@
 import styles from "./page.module.scss";
 import ImageLoader from "@/app/components/ui/image-loader";
+import Button from "@/app/components/ui/button";
 
 export default function MarketPage() {
   const articleData = [
@@ -35,20 +36,20 @@ export default function MarketPage() {
         {
           id: 1,
           content:
-            "報名提案：請先詳閱「2024 TCCF PITCHING 提案大會徵件報名須知」。",
+            "報名提案：請先詳閱「2024 TCCF PITCHING 提案大會徵件報名須知」",
         },
         {
           id: 2,
           content:
-            "徵件期間：2024 年 6 月 3 日（10:00）至 7 月 31 日（17:00）止（UTC/GMT +08:00）。",
+            "徵件期間：2024 年 6 月 3 日（10:00）至 7 月 31 日（17:00）止（UTC/GMT +08:00）",
         },
         {
           id: 3,
-          content: "報名費：今年度免收費。",
+          content: "報名費：今年度免收費",
         },
         {
           id: 4,
-          content: "原創故事概念專場為特別活動專場，不提供報名。",
+          content: "原創故事概念專場為特別活動專場，不提供報名",
         },
       ],
     },
@@ -82,9 +83,9 @@ export default function MarketPage() {
                 className="pageWrapper__container_contentWrapper__content_paragraphWrapper"
                 key={index}
               >
-                <div className="pageWrapper__container_contentWrapper__content_paragraphWrapper__title">
+                <h2 className="pageWrapper__container_contentWrapper__content_paragraphWrapper__title">
                   {data.title}
-                </div>
+                </h2>
                 <div className="pageWrapper__container_contentWrapper__content_paragraphWrapper__paragraph">
                   {data.content}
                 </div>
@@ -101,6 +102,15 @@ export default function MarketPage() {
                 </li>
               ))}
             </ul>
+
+            <div className="pageWrapper__container_contentWrapper__buttonWrapper">
+              <Button link={"/"} target="_blank" linkText={"徵件辦法"} />
+              <Button
+                link={"https://dash.taicca.tw/brd/tccf-sm-2024/apply"}
+                target="_blank"
+                linkText={"我要報名"}
+              />
+            </div>
           </div>
         </div>
       </div>

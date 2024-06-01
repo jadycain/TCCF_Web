@@ -2,16 +2,36 @@
 
 import styles from "./news.module.scss";
 import Card from "@/app/components/ui/card";
-
+import useWindowSize from "@/app/(tool)/useWindowSize";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/grid";
 import "swiper/css/pagination";
 
 import Button from "@/app/components/ui/button";
+import { useEffect, useState } from "react";
 
 export default function News() {
+  const windowSize = useWindowSize();
+  const [slideSize, setSlideSize] = useState(3);
+  const refreshViewHeight = () => {
+    const vh = windowSize.height * 0.01;
+    document.documentElement.style.setProperty("--vh", `${vh}px`);
+  };
+
+  useEffect(() => {
+    refreshViewHeight();
+
+    if (windowSize.width <= 430) {
+      setSlideSize(1);
+    } else if (windowSize.width <= 1024) {
+      setSlideSize(2);
+    } else {
+      setSlideSize(3);
+    }
+  }, [windowSize.width]);
+
   const newsCardData = [
     {
       id: 1,
@@ -58,7 +78,16 @@ export default function News() {
     <section className={styles.newsSection}>
       <div className={styles.newsSection__container}>
         <h2 className={styles.newsSection__container_title}>最新消息</h2>
-        <Swiper spaceBetween={30} slidesPerView={3} modules={[Pagination]}>
+        <Swiper
+          spaceBetween={50}
+          slidesPerView={slideSize}
+          modules={[Pagination, Autoplay]}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          loop={true}
+        >
           {newsCardData.map((news) => (
             <SwiperSlide key={news.id}>
               <Card {...news} />

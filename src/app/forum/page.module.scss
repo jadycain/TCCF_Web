@@ -1,19 +1,30 @@
+@import '../styles/style.scss';
+
 .forum {
 
     position: absolute;
-    top: 0;
+    bottom: 0;
+    right: -40vw;
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(to top, transparent, #fff);
+  
+    
 
+    @include RWD(lg){
+
+
+        right: 0;
+        height: 60%;
+
+        // height: 50vh;
+        
+    }
     
 
     img {
         
         position: absolute;
         z-index: 0;
-        top: 0px;
-        right: -100px;
         opacity: 0.5;
       
         

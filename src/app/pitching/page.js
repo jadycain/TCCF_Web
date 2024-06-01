@@ -10,7 +10,7 @@ export default function PitchingPage() {
           <ImageLoader
             src={"/images/pitching/background.png"}
             sizes={"100%"}
-            style={{ width: "auto", height: "90%" }}
+            style={{ width: "auto", height: "100%" }}
           />
         </div>
 
@@ -21,26 +21,19 @@ export default function PitchingPage() {
           <div className="pageWrapper__container_contentWrapper__content">
             <p>
               「TCCF PITCHING
-              提案大會」匯集國內外市場潛力內容提案，囊括長片、影集、動畫、紀錄片到出版、漫畫、原創故事概念，吸引來自全球內容產業專業人士參與，媒合提案與國際資源及資金，催生全球熱門作品。
+              提案大會」匯集國內外市場潛力內容提案，囊括長片、影集、動畫、紀錄片，乃至出版、漫畫、原創故事概念，吸引來自全球的內容產業人士參與，媒合提案與國際資源及資金，催生全球熱門作品。入選團隊將有機會競逐由文化內容策進院與其它單位所提供的冠名獎項和獎金。
             </p>
-
-            <p>Project to Screen 企畫專場</p>
 
             <p>
-              「Project to
-              Screen企畫專場」囊括長片、劇集、動畫及紀錄片等類別，將由國際評審選出吸睛提案，同時「文策學院
-              TAICCA School」
-              與國際單位合作提案項目也將在此首次曝光。本專場將致力媒合潛力企畫與資金，促進內容對接國際市場，強化產業網絡連結，催生更多優秀影視作品。
+              2024 年提案大會將於 11 月 5 日至 8 日於南港展覽館二館 7
+              樓舉行，分為「 企畫專場」及「 故事專場」兩大專場，
+              展示深具潛力的影視企畫與故事提案，成為國際產業人士尋找亞洲原創內容的最佳選擇！
             </p>
-
-            <p>Story to Screen 故事專場</p>
-
             <p>
-              「Project to
-              Screen企畫專場」囊括長片、劇集、動畫及紀錄片等類別，將由國際評審選出吸睛提案，同時「文策學院
-              TAICCA School」
-              與國際單位合作提案項目也將在此首次曝光。本專場將致力媒合潛力企畫與資金，促進內容對接國際市場，強化產業網絡連結，催生更多優秀影視作品。
+              所有入選提案，將以工作坊的形式提供專業提案培訓，協助入選團隊掌握提案技巧，並經由公開提案演練，快速累積實戰經驗，大幅提升獲得買家與投資方青睞的機會。
             </p>
+
+            <p></p>
           </div>
 
           <div className="pageWrapper__container_contentWrapper__buttonWrapper">
