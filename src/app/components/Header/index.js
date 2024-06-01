@@ -59,7 +59,7 @@ export default function Header() {
       name: "提案大會",
       icon: <LiaChalkboardTeacherSolid />,
       isHovered: false,
-      color: "#80c3a8",
+      color: "#50be9c",
       menu: [
         {
           id: 1,
@@ -80,14 +80,14 @@ export default function Header() {
       name: "市場展",
       icon: <IoStorefrontOutline />,
       isHovered: false,
-      color: "#fbbc6c",
+      color: "#f69451",
     },
     {
       href: "/forum",
       name: "國際論壇",
       icon: <HiOutlineChatAlt2 />,
       isHovered: false,
-      color: "#fbd4e4",
+      color: "#f5adcc",
     },
   ]);
 
