@@ -2,8 +2,10 @@ import styles from "./page.module.scss";
 import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/navigation";
 
-export default function submissionPage() {
-  const t = useTranslations("SubmissionPage");
+export default function SubmissionPage() {
+  // const t = useTranslations("SubmissionPage");
+
+  return <div>333333</div>;
 
   // return (
   //   <div className="pageWrapper">
