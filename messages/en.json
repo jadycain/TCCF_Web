@@ -29,26 +29,27 @@
       "read_more": "Read More",
       "download": "Download",
       "submission_requirements": "Submission Requirements",
-      "submission_website": "Submission Website"
+      "submission_website": "Submission Website",
+      "call_for_exhibitors": "CALL FOR Exhibitors"
 
     },
     "AboutPage": {
       "title": "ABOUT TCCF",
-      "paragraph": "“Taiwan Creative Content Fest (TCCF)” is a major annual event in the Asian creative content industry, attracting buyers and sellers internationally to converge and engage in networking and commercial negotiations. Divided into three main sections — PITCHING, MARKET, and FORUM — TCCF provides business services for the cultural content industry. By matching promising IPs with international financiers, driving commercial transactions and development between professionals worldwide, and facilitating the exchange of practical experiences and future industry trends, TCCF acts as a bridge that connects content creators and professional talents with industry resources."
+      "paragraph": "“Taiwan Creative Content Fest (TCCF)” is a major annual event in the Asian creative content industry, attracting buyers and sellers internationally to converge and engage in networking and commercial negotiations. Divided into three main sections⸺PITCHING, MARKET, and FORUM⸺TCCF provides business services for the cultural content industry. By matching promising IPs with international financiers, driving commercial transactions and development between professionals worldwide, and facilitating the exchange of practical experiences and future industry trends, TCCF acts as a bridge that connects content creators and professional talents with industry resources."
     },
     "PitichingPage": {
       "title": "TCCF PITCHING",
       "paragraph": "TCCF PITCHING brings together promising content proposals from domestic and international markets, including feature films, series, animations, documentaries, publishing, comics, and original story concepts. It attracts professionals from the global content industry, facilitating the matching of proposals with international resources and funding, thereby fostering the creation of globally popular works. Selected teams will have the opportunity to compete for sponsored awards and prizes provided by TAICCA and other organizations.<br></br><br></br>The 2024 TCCF PITCHING conference will officially take place from November 5th (Tuesday) to November 8th (Friday) at Taipei’s Skylight Convention Center, Nangang Exhibition Center, Hall 2, 7F. It will be divided into two main sections: “Project to Screen” and “Story to Screen”. Showcasing highly promising film and television projects and story proposals, TCCF PITCHING is the premier destination for international industry professionals seeking original content from Asia!",
-      "list_title": "Important Dates：",
+      "list_title": "Important Dates: ",
       "list": {
-        "list_item_1": "June - July：Call for projects begins",
-        "list_item_2": "Early September：Announcement of selected entries for each session",
-        "list_item_3": "October：Purchase of TCCF badges and registration for each session open to domestic and international professionals",
-        "list_item_4": "November 8 - 11：TCCF PITCHING"
+        "list_item_1": "June-July: Call for projects begins",
+        "list_item_2": "Early September: Announcement of selected entries for each session",
+        "list_item_3": "October: Purchase of TCCF badges and registration for each session open to domestic and international professionals",
+        "list_item_4": "November 8-11: TCCF PITCHING"
       },
       "notice": {
-        "notice_item_1": "＊ Registration：Please click on the “Project to Screen” and “Story to Screen” options on the left menu, and be sure to read the registration guidelines carefully before entering the registration system.",
-        "notice_item_2": "＊ If you have any questions, please contact：project@tccf.tw"
+        "notice_item_1": "* Registration: Please click on the “Project to Screen” and “Story to Screen” options on the left menu, and be sure to read the registration guidelines carefully before entering the registration system.",
+        "notice_item_2": "* If you have any questions, please contact: project@tccf.tw"
       }
     },
     "ProjectPage": {
@@ -56,26 +57,26 @@
       "paragraph": "“Project to Screen” encompasses categories such as feature films, series, animations, and documentaries. Eye-catching proposals will be selected by an international jury, and projects co-developed by the “TAICCA School” and international partners will also debut here for the first time. Selected teams will have the opportunity to compete for the “TAICCA AWARD: Best Project”, which includes a prize of USD 30,000. More awards will be announced soon.",
       "features": {
         "feature_1": {
-          "title": "Project to Screen：Feature Films",
+          "title": "Project to Screen: Feature Films",
           "content": "The Feature Films session is open for teams from around the world to register and participate. Teams with selected project proposals will be invited to attend a pitching training workshop, increasing their fundraising and international co-financing and co-production opportunities."
         },
         "feature_2": {
-          "title": "Project to Screen：Series",
+          "title": "Project to Screen: Series",
           "content": "The Series session is open for teams from around the world to register and participate. Teams with selected project proposals will be invited to attend a pitching training workshop, increasing their fundraising and international co-financing and co-production opportunities."
         },
         "feature_3": {
-          "title": "Project to Screen：Animation Films and Series",
+          "title": "Project to Screen: Animation Films and Series",
           "content": "The Animation Film and Series session is open for teams from around the world to register and participate. Teams with selected project proposals will be invited to attend a pitching training workshop, increasing their fundraising and international co-financing and co-production opportunities."
         },
         "feature_4": {
-          "title": "Project to Screen：Documentary Films and Series",
+          "title": "Project to Screen: Documentary Films and Series",
           "content": "The Documentary Films and Series session is open for teams from around the world to register and participate. Teams with selected project proposals will be invited to attend a pitching training workshop, increasing their fundraising and international co-financing and co-production opportunities."
         }      
       }, 
       "list": {
         "list_item_1": "To register, please see “2024 TCCF PITCHING Application Instructions”.",
-        "list_item_2": "Application period：June 3, 2024 (10:00) to 31 July, 2024 (17:00).",
-        "list_item_3": "Registration fee：NTD 1,200 per entry."
+        "list_item_2": "Application period: June 3, 2024 (10:00) to 31 July, 2024 (17:00).",
+        "list_item_3": "Registration fee: NTD 1,200 per entry."
       }
     },
     "StoryPage": {
@@ -83,15 +84,15 @@
       "paragraph": "“Story to Screen” selects story IPs with the potential for audiovisual adaptation, ranging from fiction and non-fiction, comics, and original story concepts. In collaboration with the international screen adaptation promotion brand “Shoot the Book!”, it aims to open up more opportunities for transmedia IP development, allowing good stories to be seen. A professional jury will choose one work from the selected entries of the Fiction & Non-fiction and Comics sessions to award a prize of TWD 300,000.",
       "features": {
         "feature_1": {
-          "title": "Story to Screen： Fiction & Non-fiction",
+          "title": "Story to Screen:  Fiction & Non-fiction",
           "content": "The Fiction & Non-Fiction session focuses on Taiwanese written works with potential for screen adaptation, inviting novels, non-fictional, and non-literary writings to participate. Amidst the global trend of adapting publications into film and TV series, TCCF PITCHING offers a platform that showcases the freedom, rich stories, creative energy, and market potential of Taiwanese written works, driving the production of more Taiwanese film and TV adaptations."
         },
         "feature_2": {
-          "title": "Story to Screen：Comics",
+          "title": "Story to Screen: Comics",
           "content": "This year, we have added a Comics session, targeting film and TV producers and investors in search of comic book IPs. We invite various types of original Taiwanese comics, including traditional manga and webtoons, to showcase their diverse, unique, and innovative characteristics, as well as their high potential for visual adaptation and expansion. Our aim is to facilitate the transmedia development of more Taiwanese comics and their adaptation into film and TV works."
         },
         "feature_3": {
-          "title": "Story to Screen：Original Story Concept",
+          "title": "Story to Screen: Original Story Concept",
           "content": "In connection with the first Original Story Concept Contest, the Original Story Concept session provides an excellent platform for the top five works of the contest. Bringing together talented creators from across Mandarin-speaking regions, this session unveils brand-new stories never before made public, injecting even more exciting creative energy into the TCCF PITCHING conference. "
         },
         "feature_4": {
@@ -101,38 +102,243 @@
       }, 
       "list": {
         "list_item_1": "To register, please see “2024 TCCF PITCHING Application Instructions”.",
-        "list_item_2": "Application period：June 3, 2024 (10:00) to 31 July, 2024 (17:00).",
-        "list_item_3": "Registration fee：Free this year.",
+        "list_item_2": "Application period: June 3, 2024 (10:00) to 31 July, 2024 (17:00).",
+        "list_item_3": "Registration fee: Free this year.",
         "list_item_4": "The Original Story Concept session is a special event and does not accept applications."
       }
     },
     "MarketPage": {
       "title": "MARKET",
-      "paragraph": "“Story to Screen” selects story IPs with the potential for audiovisual adaptation, ranging from fiction and non-fiction, comics, and original story concepts. In collaboration with the international screen adaptation promotion brand “Shoot the Book!”, it aims to open up more opportunities for transmedia IP development, allowing good stories to be seen. A professional jury will choose one work from the selected entries of the Fiction & Non-fiction and Comics sessions to award a prize of TWD 300,000.",
+      "paragraph": "“TCCF MARKET” focuses on facilitating rights transactions of international audiovisual content and promising IPs, expanding integration within the industry chain. MARKET encompasses operators and professionals from sectors as exemplified by content development, filming resources, and visual technologies, serving as a platform to explore opportunities for commercial collaboration and networking, thereby expanding the global market.",
       "features": {
         "feature_1": {
-          "title": "Story to Screen： Fiction & Non-fiction",
-          "content": "The Fiction & Non-Fiction session focuses on Taiwanese written works with potential for screen adaptation, inviting novels, non-fictional, and non-literary writings to participate. Amidst the global trend of adapting publications into film and TV series, TCCF PITCHING offers a platform that showcases the freedom, rich stories, creative energy, and market potential of Taiwanese written works, driving the production of more Taiwanese film and TV adaptations."
+          "title": "Copyright Transaction Zone",
+          "content": "The “Copyright Transaction Zone” brings together professionals from various fields such as film, television, animation, and special effects, providing a platform for communication and copyright transactions."
         },
         "feature_2": {
-          "title": "Story to Screen：Comics",
-          "content": "This year, we have added a Comics session, targeting film and TV producers and investors in search of comic book IPs. We invite various types of original Taiwanese comics, including traditional manga and webtoons, to showcase their diverse, unique, and innovative characteristics, as well as their high potential for visual adaptation and expansion. Our aim is to facilitate the transmedia development of more Taiwanese comics and their adaptation into film and TV works."
+          "title": "Production Resource Zone",
+          "content": "The “Production Resource Zone” features regional film commissions, film fund foundations, and collaborative production centers, offering one-stop access to filming resources, funding, and consultation services for collaborative filming. "
         },
         "feature_3": {
-          "title": "Story to Screen：Original Story Concept",
-          "content": "In connection with the first Original Story Concept Contest, the Original Story Concept session provides an excellent platform for the top five works of the contest. Bringing together talented creators from across Mandarin-speaking regions, this session unveils brand-new stories never before made public, injecting even more exciting creative energy into the TCCF PITCHING conference. "
+          "title": "IP Adaptations",
+          "content": "“IP Adaptations” aims to foster more outstanding Taiwanese literary works adapted into audiovisual productions, enhance content translation capabilities, and assist publishers in focusing on audience markets and the demands of audiovisual productions. The IP Adaptations helps identify key areas for audiovisual adaptation and recommends titles with potential."
         },
         "feature_4": {
-          "title": "Shoot the Book! TCCF",
-          "content": "In collaboration with the Civil Society of French-Language Publishers (SCELF), the internationally renowned screen adaptation brand “Shoot the Book!” will make its debut in Taiwan! Targeting published works with both screen adaptation and international market potential, the Shoot the Book! TCCF session will showcase both Taiwanese and French screen adaptation proposals, providing producers and investors with more diverse and internationalized story content and further fostering opportunities for multinational collaboration."
-        }      
-      }, 
+          "title": "Visual Technologies Zone",
+          "content": "The “Visual Technologies Zone” collaborates with post-production, special effects, and technology companies, providing industry technology services and facilitating exchanges."
+        },
+        "feature_5": {
+          "title": "National Pavilions",
+          "content": "The “National Pavilions” invites national-level institutions to set up pavilions, promoting exchanges with international audiovisual professionals and increasing opportunities for cross-border cooperation."
+        },
+        "feature_6": {
+          "title": "Industry Press Conferences",
+          "content": "The “Industry Press Conferences” shares the latest industry developments and trends, showcasing the content industry's competitive advantages to increase media exposure, discussions, and media buzz."
+        }            
+      }
+    },
+    "ForumPage": {
+      "title": "FORUM",
+      "paragraph": "The FORUM section delves into international collaboration and invites key figures from the domestic and international content industries to share practical experiences and future industry trends, offering insights into the forefront of diverse international collaborations and industry dynamics."
+    },
+    "PrivacyPolicyPage": {
+      "title": "Privacy and Information Security Policy and Copyright Announcement",
+      "paragraph": "Welcome to the website (the “Website”) of the Taiwan Creative Content Fest (“TCCF”), owned and operated by Taiwan Creative Content Agency (“TAICCA”)! You are welcome to share the data published on the Website by sharing links. If you need to reproduce, copy or distribute the website data, please contact us and obtain written consent before proceeding. In order to make you more comfortable with the services provided by the Website, we hereby explain to you the privacy and information security policy as follows: ",
       "list": {
-        "list_item_1": "To register, please see “2024 TCCF PITCHING Application Instructions”.",
-        "list_item_2": "Application period：June 3, 2024 (10:00) to 31 July, 2024 (17:00).",
-        "list_item_3": "Registration fee：Free this year.",
-        "list_item_4": "The Original Story Concept session is a special event and does not accept applications."
+        "list_1": {
+          "title": "About The Applicability Of The Policy",
+          "content": "With regard to the Scope of Policy: The following privacy and information security policy and copyright announcement (hereinafter referred to as the“Policy”) applies to the collection, use and protection of personal information and rules of copyright involved in your activities on this Website, but does not apply to the websites of other government agencies, other legal entities, organizations or natural persons linked to the functions of this Website. All websites linked to this Website, regardless of whether they are operated and managed by TAICCA, have their own privacy policies and copyright announcement, and TAICCA is not responsible for any collateral liability. When you engage in activities on these websites, the privacy policy and copyright announcement of each website will apply to the protection of your personal information."
+        },
+        "list_2": {
+          "title": "Collection And Use Of Personal Data",
+          "content": {
+            "content_1": "The Website will not collect any personal identity information only for browsing and downloading behaviors.",
+            "content_2": "When the applicant is required to provide personal data for online application services provided by the Website, each handling unit will, according to the case handling requirements, ask you to provide the latest and most authentic personal data such as name, contact number, email, address, etc.",
+            "content_3": "When you use the Website, TAICCA may collect the following data: ",
+            "subcontent_3": {
+              "sub_1": "Your data after login the Website with your TAICCA ID Service account, including without limitation progress, inquiry information, record of behavior and activity (including without limitation appointment of meeting, sign up of lecture, show of innovations, etc.)",
+              "sub_2": "Technical data such as URL, IP address, type of browser, type and identifier of device, information of operation system, language and visit time, data of location, etc., and the Website will use cookies to provide the functions on each website."
+            },
+            "content_4": "If you reflect your opinions or ask business questions through e-mail or our service mailbox, we will keep a communication record, but only for the purpose of contacting you.",
+            "content_5": "We are obliged to protect the privacy of each applicant. We will not modify or delete any personal data or files without your prior consent, except in the following situations: ",
+            "subcontent_5": {
+              "sub_1": "Violation of the provisions of this Website, such as abusive or personal attacks in the forum.",
+              "sub_2": "Protect or defend the rights of the individual concerned.",
+              "sub_3": "For the protection of the rights and interests of all relevant units of this Website."
+            },
+            "content_6": "We will not arbitrarily provide, sell, exchange or lease any personal data to other groups, individuals or private enterprises, except in the following situations: ",
+            "subcontent_6": {
+              "sub_1": "Cooperate with judicial authority in legal investigation.",
+              "sub_2": "Cooperate with relevant competent authorities to investigate or use according to their duties.",
+              "sub_3": "Based on good faith and reasonable belief that relevant disclosure is required by law, or used for relevant management work based on maintenance and improvement of the services provided by the Website."
+            },
+            "content_7": "To provide the services under the Website or TCCF, we will provide certain personal data to service providers of online payment, online certification or other related services and/or partner (e.g. service provider of payment, certification and exhibition, etc.).",
+            "content_8": "Personal data collected on the Website in accordance with legal requirements and business requirements will be deleted after the expiration of the retention period.",
+            "content_9": "In the event material national interests may be harmed, competent authority may be prevented from performing its statutory duties or the material interests of the data collectors or any third parties may be adversely affected, the Website shall have the right to refuse your request of alteration, deletion or change of your personal data."
+          }
+        },
+        "list_3": {
+          "title": "Use Of Cookies",
+          "content": "To provide you with the best service, the Website will record users' IP address, time of surfing the Internet and the pages that users browse on the website (commonly known as Cookies), which are used in Google Analytics to analyze the behavior of all users in order to improve the service quality of the Website. Please be assured that we will not analyze the behavior of individual users. If you are not willing to accept Cookie writing, you can set the privacy level to high in the browser function item you are using, and then you can refuse cookie writing, but it may lead to some functions of the Website unable to be normally executed."
+        },
+        "list_4": {
+          "title": "Exercise Of The Right Of Personal Data Parties",
+          "content": {
+            "content_1": "In addition to the provisions and restrictions on the personal data collected during the online application services provided on the Website, you may exercise the following rights in accordance with Article 3 of the PDPA, and if you intend to exercise the following rights, please contact us to apply: ",
+            "subcontent_1": {
+              "sub_1": "The right to request a copy of your personal data.",
+              "sub_2": "The right to supplement or correct your personal data.",
+              "sub_3": "The right to demand the cessation of the collection, processing or use of your personal data.",
+              "sub_4": "The right to erase your personal data.",
+              "sub_5": "The right to make an inquiry of and to review your personal data."
+            }
+          }
+        },
+        "list_5": {
+          "title": "Information Security And Protection",
+          "content": "The Website server is equipped with a \"firewall\" to protect against illegal invasion, destruction, or theft of data. When you use the services provided by the Website, any data stored on the Website will be fully protected to ensure personal data security."
+        },
+        "list_6": {
+          "title": "Self-Data Security Protection Measures",
+          "content": {
+            "content_1": " Please take good care of any personal data and do not provide personal data to any third party to protect your rights and interests. Be aware that personal data disclosed on the Internet (such as in discussion areas, message boards, chat areas, etc.) may be collected and used by others, and that you may receive emails provided by others.",
+            "content_2": "We will do our best to check and test the electronic records provided by this Website. However, we suggest that users shall use antivirus software to make a check before downloading any attachments."
+          }
+        },
+        "list_7": {
+          "title": "Privacy Policy Modification And Consultation",
+          "content": "Any changes of the Policy will be effective immediately when we post a revised version of the Policy on the Website. If you do not agree to the changes or modifications, please stop using the Website and notify the Website to stop collecting, processing and using your personal information in accordance with the provisions of this Policy. If you have any questions or comments on the Policy, you are welcome to contact us. Thank you!"
+        },
+        "list_8": {
+          "title": "Copyright Statement",
+          "content": {
+            "content_1": "All contents published on the Website are protected by copyright law, except those which are not allowed to be the subject of copyright (such as laws, orders, press releases of government, etc.)(Please refer to Article 9 of the Copyright Act) as stipulated in the Copyright Act.",
+            "content_2": "Content not allowed to be the subject of copyright is free to use. They are welcome to be widely used.",
+            "content_3": "Where the information content of the Website is protected by the Copyright Act, it may be used only with the consent or authorization of the copyright owner, unless it is the fair use in accordance with the relevant law.",
+            "content_4": " The above \"fair use\" is explained as follows: ",
+            "subcontent_5": {
+              "sub_1": "Works published in the name of Taiwan Creative Content Agency (TAICCA) on the Website, that is, if the author is TAICCA, can be broadcasted or transmitted by means of link within a reasonable range, and please indicate the source when providing the link.",
+              "sub_2": "The information of the Website can be reproduced for non-profit purposes by individuals or families.",
+              "sub_3": "For the purpose of reporting, commenting, teaching, research or other legitimate purposes, within a reasonable range, the website information may be quoted. When quoting, please indicate the source.",
+              "sub_4": "For other reasonable use cases, please refer to Articles 44 to 65 of the Copyright Act."
+            },
+            "content_5": " Except as provided in Article 80-1, paragraph 1 of the Copyright Act that \"Where removal or alteration of electronic rights management information of the work is unavoidable in the lawful exploitation of the work given technological limitations at the time of the act.\" or \"Where the removal or alteration is technically necessary to conversion of a recording or transmission system\" is not allowed, without prior written permission, the right management electronic information marked on the Website shall not be removed or changed."
+          }
+        },
+        "list_9": {
+          "title": "Licensed Content And License To Taicca And Other Users",
+          "content": {
+            "content_1": "When you use the services of the Website, you may provide video, audio(including music and other audio files), image, photo, text, trademark, software,and all other materials protected by copyright law or other intellectual property right laws. It shall be deemed as your acceptance to grant the Website and other websites cooperated with the TAICCA ID Service to use such materials according to the TOU and the Agreement upon your upload of such materials (collectively, the \"Licensed Content\").",
+            "content_2": "You may use your Licensed Content to promote your business or occupational activity. Unless you have sufficient right to use the Licensed Content or sufficient authorization from the third party owning the right of the same, you shall not upload the Licensed Content to the Website. You shall bear all liabilities derived from the Licensed Content uploaded or in any method provided to the Website and your use of the Licensed Content through the Website. You shall assist TAICCA with TAICCA’s direction if any third party makes a claim against TAICCA or any competent authority adjudicates TAICCA due to your violation of the above-mentioned provision and shall compensate TAICCA for damage (if any) derived therefrom (including without limitation attorney fee, litigation cost, settlement amount, fine, penalty, compensation, interest, etc.). The Website shall have the right to detect if there is any illegal action, infringement, or other misuse (including without limitation infringing content, malware, and other illegal content) by analyzing, processing the Licensed Content uploaded by you with any measure (including without limitation automatic system).",
+            "content_3": "Notwithstanding you upload the Licensed Content to the Website, the rights of the Licensed Content shall be reserved by you or the third party owning the related rights of the Licensed Content. The Licensed Content shall be solely authorized to the websites cooperated with the TAICCA ID Service, TAICCA and the users of the Website subject to the TOU and the Agreement.",
+            "content_4": "You may remove the Licensed Content uploaded by you from the Website from time to time. Upon your removal of such Licensed Content, the license shall be terminated and the Website will not publicly display such Licensed Content, provided, however, the Website shall have the right to use such removed Licensed Content solely for the purpose of archive and data analysis continuously.",
+            "content_5": "TAICCA shall have the right to, in its sole discretion, remove all or part of certain Licensed Content provided TAICCA reasonably considers that any Licensed Content could violate laws, the Policy or any other rules of the Website, or could damage TAICCA, the Website or any third party. TAICCA will advise you the reason of such removal after doing so except such notice could: (1) violate any laws or disturb any enforcement of competent authority; (2) affect the investigation of the cause of removal; (3) damage TAICCA, the Website or any third party.",
+            "content_6": "You shall keep and backup the Licensed Content uploaded by you.The Website shall not have the obligation to keep or backup the Licensed Content uploaded by you or provide you with any copy of the same upon your request."
+          }
+        }
+      }
+      
+    },
+    "ArticlePage_20240510": {
+      "title": "Call for Projects: Over $3 Million Investment for International Audiovisual Contents at TCCF PITCHING 2024",
+      "paragraph_1": "Taiwan Creative Content Agency (TAICCA) is pleased to announce that the 5th Taiwan Creative Content Fest (TCCF) will take place from November 5th to 8th at the Taipei Nangang Exhibition Center. The “Project to Screen” section continues to invite international submissions, with expected total investment resources of over USD 3 million provided.",
+      "paragraph_title_1": "“Project to Screen” :  Facilitating Production and Market Access",
+      "paragraph_2": "The \"Project to Screen\" section includes four categories: feature films, series, animation, and documentaries. Submissions open on June 3rd and will undergo evaluation by a panel of international juries. Selected entries will receive training resources and present proposals during TCCF, with accommodation subsidies offered. One outstanding project will be awarded the \"Project to Screen: Best Project\" award and a prize of USD 30,000.<br></br><br></br>All selected projects can apply for TAICCA's  “Creative Content Development Program (CCDP) - Development Fund” and “Taiwan’s International Co-funding Program 2.0 (TICP 2.0) Option 2“ within two years. The total funding surpasses USD 3 million, providing resources to advance project development and establish connections within the market. Both initiatives have helped build on success at the Berlinale and Cannes Film Festival in 2024, paving the way for high-quality works with international marketability.<br></br><br></br>TCCF 2024 continues to collaborate with international festivals, markets, and organizations to promote audiovisual works and talents to the European and global markets. One project selected by Series Mania is invited to participate in the 2025 event. The BIFAN NAFF Project Market, Focus Asia-All Genres Market, and the MIFFest Project Market will also select project proposals from TCCF to participate in upcoming events.<br></br><br></br>TCCF award winners are making significant impacts and gaining recognition at prestigious film festivals and markets. The documentary \"After the Snowmelt,\" winner of the \"TAICCA X CNC AWARD\" in TCCF 2023, has since been selected to multiple international film festivals, including Visions du Réel in Switzerland, Jeonju International Film Festival in South Korea, Trento Film Festival in Italy, and Millennium Docs Against Gravity in Poland, showcasing Taiwan's cultural and content strengths on the global stage.<br></br><br></br>Aside from projects selected from the TCCF Project to Screen open call, ones from TAICCA’s workshop in collaboration with “Festival des 3 Continents / Produire au Sud,” “Series Mania Institute,” and audiovisual professionals from South Korea, will also be presented in respected pitching sessions.",
+      "paragraph_title_2": "“Story to Screen” Sessions: Showcase of Adaptation Potential for Industry Buyers",
+      "paragraph_3": "Another section of TCCF PITCHING \"Story to Screen\" recommends story IPs with adaptation potential, including fiction and non-fiction, comics, and original story concepts. Along with “Shoot the Book! TCCF” session - a collaboration with SCELF, ”Story to Screen” will present Taiwanese and French stories with marketability to domestic and international buyers and professionals, aiming to facilitate adaptations, foster collaborations, and expand the reach of compelling narratives.‍",
+      "paragraph_title_3": "“Elevating Taiwan's Creative Industry: TAICCA Pioneers Collaboration and Funding",
+      "paragraph_4": "Homme TSAI, TAICCA’s chairman, emphasized the agency's commitment to enhancing Taiwan's creative industry. To further support the cultural investment environment, that was made favorable following the amendment regarding the Development of the Cultural and Creative Industries Act, TAICCA has collaborated with leading domestic telecommunication and technology companies, including ASUS and ADATA, as well as international creative content companies such as CJ ENM Hong Kong and Warner Bros. Discovery Group, to establish funds, laying the groundwork for producing high-quality works with global appeal.<br></br><br></br>TCCF is a major annual event in the Asian creative content industry, attracting buyers and sellers internationally to converge and engage in networking and commercial negotiations. Divided into three main sections — PITCHING, MARKET, and FORUM — TCCF aims to promote exceptional works with marketability and international influence, while actively fostering opportunities for transmedia content development, investment, sales, and distribution.",
+      "list": {
+        "title": "TCCF PITCHING “Project to Screen” 2024 Important Dates",
+        "list_item_1": "June 03 - July 31: Open call and submission.",
+        "list_item_2": "Please refer to the official website<link> (https://www.tccf.tw/en/home) </link>for the announcement of the call for projects.",
+        "list_item_3": "Early September: Announcement for selected projects/stories."
+      }
+    },
+    "ArticlePage_20240502": {
+      "title": "TCCF 2024 Dates Announced",
+      "paragraph_1": "With great excitement, we announce the TAIWAN CREATIVE CONTENT FEST (TCCF) 2024 dates from November 5-8 in Taipei, Taiwan at Nangang Exhibition Center, Hall 2, 7F.<br></br><br></br>For the latest updates, follow us on –  LinkedIn, Twitter, and Facebook.‍",
+      "paragraph_title_1": "About TAIWAN CREATIVE CONTENT FEST (TCCF)",
+      "paragraph_2": "‍“Taiwan Creative Content Fest (TCCF)” is a major annual event in the Asian creative content industry, attracting buyers and sellers internationally to converge and engage in networking and commercial negotiations. Divided into three main segments — PITCHING, MARKET, and FORUM — TCCF provides business services for the cultural content industry.<br></br><br></br>By matching promising IPs with international financiers, driving commercial transactions and development between professionals worldwide, and facilitating the exchange of practical experiences and future industry trends, TCCF acts as a bridge that connects content creators and professional talents with industry resources.",
+      "paragraph_main_title_1": "PITCHING (Tue 5 – Fri 8, November)",
+      "paragraph_3": "“TCCF PITCHING” brings together promising content proposals, covering feature films, series, animation, documentaries, publishing, comics, and original story concepts. It attracts professionals across the global content industry and facilitates the matchmaking of projects with international resources and funding, fostering the development of internationally popular works.",
+      "paragraph_title_2": "Project to Screen",
+      "paragraph_4": "The \"Project to Screen\" section curates high-quality proposals across various types of audiovisual content, encompassing feature films, series, animation, and documentaries. Including sessions collaborating with international partners of TAICCA School, “Project to Screen” strives to match potential projects with funding, facilitate integration into the global market, and strengthen connections within the industry network, fostering the creation of more outstanding audiovisual works.<br></br><br></br>This section is open to local and international applicants. All selected projects will be eligible to apply for the development fund and gap financing support from TAICCA, with the possibility of winning awards! The pitches will be divided into the following four categories: Feature Films, Series, Animation Features and Series, Documentary Features and Series",
+      "paragraph_5": "More information on funding support programs from TAICCA",
+      "paragraph_6": "Creative Content Development Program",
+      "paragraph_7": "Taiwan's International Co-funding Program",
+      "paragraph_title_3": "Story to Screen",
+      "paragraph_8": "The \"Story to Screen\" section recommends story IPs with market potential from various mediums including but not limited to published texts, comics, and original story concepts. With “Shoot the Book! TCCF Session” - a collaboration with SCELF and Marché du Film included, ”Story to Screen” aims to facilitate adaptation licensing collaborations, fostering more opportunities for interdisciplinary development and expanding the reach of compelling narratives.‍",
+      "list_1": {
+        "title": "TCCF PITCHING 2024 Important Dates",
+        "list_item_1": "May: Submission guidelines announced.",
+        "list_item_2": "June 03 - July 31: Open call and submission.",
+        "list_item_3": "Early September: Announcement for selected projects/stories. Badge registration starts.",
+        "list_item_4": "October: Event registration.",
+        "list_item_5": "November 05-08: TCCF PITCHING"
+      },
+      "paragraph_9": "‍For more information please contact: project@tccf.tw",
+      "paragraph_main_title_2": "MARKET (Tue 5 – Fri 8, November)",
+      "paragraph_10": "“TCCF MARKET” focuses on facilitating rights transactions of international audiovisual content and promising IPs, expanding integration within the industry chain. MARKET encompasses operators and professionals from sectors as exemplified by content development, filming resources, and visual technologies, serving as a platform to explore opportunities for commercial collaboration and networking, thereby expanding the global market.",
+      "list_2": {
+        "title": "TCCF MARKET 2024 Important Dates",
+        "list_item_1": "May: Registration guidelines announced.",
+        "list_item_2": "June -August: Registration for Exhibitor Booth.",
+        "list_item_3": "September: Badge Registration starts.",
+        "list_item_4": "October: Event and meeting registration starts.",
+        "list_item_5": "November 5 - 8: TCCF MARKET"
+      },
+      "paragraph_11": "For more information please contact: market@tccf.tw",
+      "paragraph_main_title_3": "FORUM (Tue 5 – Fri 8, November)",
+      "paragraph_12": "“TCCF FORUM” invites creative content industry experts to share practical experiences and future industry trends, providing the most extensive and comprehensive industry insights.",
+      "paragraph_13": "For more information please contact: contact@tccf.tw",
+      "list_3": {
+        "title": "Taiwan Creative Content Fest (TCCF) 2024",
+        "list_item_1": "Time｜Nov. 05 (Tue.) - 08 (Fri.), 2024",
+        "list_item_2": "Location｜Taipei Nangang Exhibition Center Hall 2 7F"
+      }
+    },
+    "ArticlePage_20231115": {
+      "title": "A Record Number of International Professionals Attend the Fourth Edition of TCCF",
+      "paragraph_1": "Taipei, TAIWAN — Last Sunday, November 12, concluded the fourth edition of the Taiwan Creative Content Fest (TCCF), an international meeting point for content industry professionals organized by the Taiwan Creative Content Agency (TAICCA) in Taipei. During the 6-day event, thousands of guests from 29 countries attended the on-site activities, with 241 international professionals landing in Taipei —a record number for the emerging event.",
+      "paragraph_title_1": "PITCHING",
+      "paragraph_2": "This is the first year TCCF accepts international entries receiving a record-breaking 539 projects from 29 regions. The 53 selected titles were eligible for 30 awards sponsored by local and international partners. ",
+      "paragraph_3": "In the award ceremony on November 10, the Taiwan-Japan heartfelt documentary After the Snowmelt and the Filipino supernatural drama Mother Maybe were both selected the TAICCA X CNC award winners, receiving a cash prize of US$30,000 each. Another selected project, the Taiwanese series Maid of Vengeance, received the Chunghwa Telecom Award, together with a cash prize NT$600,000, and the Series Mania Award, which means the project will participate in Series Mania 2024. Finally, Taiwan-Hong Kong feature Appetite for Desire won the MIFFEST Award, the Choice of Deep Waters Award, and the Taipei International Film Award.",
+      "paragraph_title_2": "MARKET",
+      "paragraph_4": "Featuring local and international licensors, national pavilions, innovative tech companies, and film commissions, this year’s B2B marketplace hosted more than 100 booths.<br></br><br></br>With more than 1,400 business meetings in 4 days, MARKET attracted international exhibitors looking for Taiwanese distributors. Among them was the Japan External Trade Organization (JETRO) whose representative, Yuichi Ito, was very excited to participate in TCCF for the first time, \"Our goal is to find buyers interested in Japanese animation, films and dramas. It's a great opportunity for us to find partners and buyers because there are so many great companies at TCCF that we haven't met before.\"",
+      "paragraph_title_3": "INNOVATIONS",
+      "paragraph_5": "The section dedicated to the latest technological advancements in the content industry hosted 23 panels, workshops, industry insights and showcases with trailblazers in the industry from local and international institutions such as PHI Centre, Ars Electronica or KKCompany. In addition, it showcased 21 immersive artworks including installations and MR/AR experiences.",
+      "paragraph_6": "One of the speakers at INNOVATIONS, Liz Rosenthal, curator at Venice Immersive (Venice International Film Festival), expressed her excitement for this year's event, \"TCCF is really an amazing place to discover all the latest projects from Taiwan and to meet all of the players in the immersive industry. It’s very useful for me at the Venice Film Festival because we love featuring all the amazing talent from Taiwan.\"",
+      "paragraph_7": "Beyond the three main sections at TCCF 2023, there were other important announcements and discussions about the current role of Asian content in the world. At a panel hosted by Janice Chua, vice president at Imagine International, about the increasing presence of Asian creative in Hollywood, Adele Lim, writer of Crazy Rich Asians and director of Joy Ride, explained that even at first she felt at a disadvantage when she moved from her native Malaysia to LA, she quickly realized that \"growing up in Asia had tremendous advantages, which first of all made me much more multicultural and open to different types of entertainment.\"<br></br><br></br>During a press conference, KOKO Entertainment and DaMou Entertainment presented their new series Fired Up!, a remake of the popular K-drama Itaewon Class. Starring Taiwanese singer Eric Chou, the show will go into production this December. In addition, they also revealed the second season of their multi-awarded project The World Between Us. Once again in collaboration with streaming platform CATCHPLAY and Taiwan's Public Television Service, the second season will follow a new story reflecting on Taiwanese public health, law, politics, and mental illness.<br></br><br></br>A series of MOUs were also signed on stage between TAICCA and several local and international partners, including Centre national du cinéma et de l'image animée, CJ ENM Hong Kong. The goal of these agreements is to continue to develop and elevate Taiwanese productions, to gain further visibility on international stages, and to support emerging talents.",
+      "list_1": {
+        "title": "Contact Info: ",
+        "list_item_1": "DDG - International PR & Marketing Manager",
+        "list_item_2": "Jaime Costas Nicolás",
+        "list_item_3": "jaime.costas@ddg.com.tw",
+        "list_item_4": "+886223117007 #406"
+      },
+      "list_2": {
+        "title": "TAICCA Representative",
+        "list_item_1": "Wengin  Hsu 許文貞",
+        "list_item_2": "<link>wengin.hsu@taicca.tw</link>",
+        "list_item_3": "<link>+886-2-27458186 #805</link>"
+      }
+    },
+    "ArticlePage_20231110": {
+      "title": "Taiwan-Japan Heartfelt Documentary \"After the Snowmelt\" and Filipino Fantasy Feature \"Mother Maybe\" Win Big at TCCF 2023",
+      "paragraph_1": "Taipei, TAIWAN — On Friday November 10, the Taiwan Creative Content Fest held an award ceremony recognizing the best pitched projects during its 4th edition. The two US$30,000 TAICCA X CNC Awards, went to the Taiwanese-Japanese documentary After the Snowmelt and the Filipino fantasy Feature film Mother Maybe.<br></br><br></br>The event, organized by the Taiwan Creative Content Agency (TAICCA), secured an impressive number of local and international sponsors for its 30 pitching awards including Chunghwa Telecom, Taiwan Mobile, Far EasTone and France’s Centre National du cinéma et de l’image animée (CNC). The total award prize surpassed the NT$6 million or nearly US$200,000. Homme Tsai, Chairperson of TAICCA, opened the evening saying that the support for this year's TCCF had been unprecedented, \"the agency has actively collaborated with South Korea, France, Japan, and the three major telecommunications companies in Taiwan. Our goal is to provide creators with more funding while seeking additional international collaboration opportunities.\"<br></br><br></br>The grand prize, the US$30,000 TAICCA X CNC Award, went to the documentary After the Snowmelt. The Taiwanese-Japanese co-production is a heartfelt tribute from director Lo Yi-Shan to her best friend Chu, who passed away while trekking in Nepal. The director highlighted that there are not many opportunities for documentary pitches in Taiwan and was thankful to the organization for featuring a documentary session for the first time, \"the fact that TCCF specifically caters to documentary submissions is a significant encouragement. \"However, the biggest surprise of the night came right at the end of the ceremony when the organization announced that due to the high quality of the projects this year they would grant a second TAICCA X CNC Award. The second winner, the Filipino feature film Mother Maybe, is a fantasy drama that mixes Filipino folklore with a universal message of finding your own family and your place in the world. Producer Arden Rod Condez, visibly overwhelmed, confessed that \"we never expected it. It's our first film market and my first time in Taiwan but I'm very glad this story resonated with a lot of people. It's quite personal but, also, a little crazy.\" The project also received the Taichung Action Award and the MPA Grand Award that evening.<br></br><br></br>Another highlighted project in this year's TCCF PITCHING is the series Maid of Vengeance. Directed by 2022 Golden Bell Best Director winner David Chuang (Danger Zone), this revenge thriller follows the downfall of a TV anchor after her sex tape is leaked online. Now a vigilante, she swears to take down the platform behind the leaked videos. Maid of Vengeance received the Chunghwa Telecom Award, together with a cash prize NT$600,000, and the Series Mania Award, which means the project will participate in Series Mania 2024. Taiwan-Hong Kong feature Appetite for Desire was one of the other top earners of the night. The supernatural drama, co-produced by Taiwan's Flash Forward Entertainment, received the MIFFEST Award, the Choice of Deep Waters Award and Taipei International Film Award.<br></br><br></br>This year TCCF PITCHING opened up for the first time to international projects. The 53 selected projects, out of 539 submissions, were presented in 5 different sessions, Project to Screen, divided in feature films, series, animation and documentary, and Story to Screen, for Taiwanese IPs with great adaptability potential. Curator and producer Lorna Tee, one of the awards' decision makers, declared that \"I'm just quite overwhelmed with joy with the quality of the pitched projects at this year's TCCF. This platform allows filmmakers to think and have meaningful conversations about their projects, and find co-production partners. The more countries involved in the development of a film the easier it will reach a wider audience.\"",
+      "list_1": {
+        "title": "Contact Info: ",
+        "list_item_1": "DDG - International PR & Marketing Manager",
+        "list_item_2": "Jaime Costas Nicolás",
+        "list_item_3": "jaime.costas@ddg.com.tw",
+        "list_item_4": "+886223117007 #406"
+      },
+      "list_2": {
+        "title": "TAICCA Representative",
+        "list_item_1": "Wengin  Hsu 許文貞",
+        "list_item_2": "<link>wengin.hsu@taicca.tw</link>",
+        "list_item_3": "<link>+886-2-27458186 #805</link>"
       }
     }
-   
 }

@@ -269,7 +269,7 @@ export default function Header() {
             >
               <AiOutlineGlobal />
             </div>
-            {localActive === "en" ? "English" : "中文"}
+            {localActive === "en" ? "中文" : "EN"}
           </div>
         </motion.div>
 

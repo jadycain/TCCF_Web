@@ -52,11 +52,19 @@
                
                 font-size: clamp(20px, 1.40625vw, 27px);
                 line-height: 1.5;
+                margin-bottom: 0;
             }
 
             &__images {
                 position: relative;
                 width: 100%;
+                margin: 0;
+                margin-bottom: 40px;
+
+                figcaption {
+                    text-align: center;
+                    font-size: 13px;
+                }
                 
             }
 
@@ -74,23 +82,27 @@
             &__nonelistWrapper {
 
                 text-align: left;
+                list-style: none;
+                padding: 0;
                
 
                 &_listTitle {
-                    
+                    font-weight: 600;
                 }
 
-                &_list {
-                    list-style: none;
-                    padding: 0;
-                    // list-style-position: inside;
-                }
+                
             }
 
             &__listWrapper {
 
-                &_listTitle {
+                text-align: left;
+                padding-left: 20px;
 
+                // padding: 0;
+
+                &_listTitle {
+                    font-weight: 600;
+                   margin-left: -20px;
                 }
 
                 &_list {

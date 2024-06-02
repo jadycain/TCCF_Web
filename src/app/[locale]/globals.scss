@@ -80,7 +80,15 @@
   
   letter-spacing: 2px;
   line-height: 2;
-  font-family: var(--font-noto-sans-tc);
+  // font-family: var(--font-noto-sans-tc);
+}
+
+body:lang(en) {
+  font-family: var(--font-poppins), Arial;
+}
+
+body:lang(zh-hant) {
+  font-family: var(--font-noto-sans-tc), "新細明體";
 }
 
 html,
@@ -209,5 +217,17 @@ circle {
           left: 14px;
           transform: translateY(-6px) rotate(135deg);
       }
+  }
+}
+
+
+ol { 
+  counter-reset: item  
+  li { 
+    display: block 
+  }
+  li::before { 
+    content: counters(item, ".") " "; 
+    counter-increment: item 
   }
 }
