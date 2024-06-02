@@ -45,7 +45,10 @@ export default function PitchingPage() {
 
             <div className="pageWrapper__container_contentWrapper__content_notice">
               {[1, 2].map((key) => (
-                <span className="pageWrapper__container_contentWrapper__content_notice__item">
+                <span
+                  className="pageWrapper__container_contentWrapper__content_notice__item"
+                  key={key}
+                >
                   {t(`notice.notice_item_${key}`)}
                 </span>
               ))}

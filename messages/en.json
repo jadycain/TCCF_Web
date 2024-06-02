@@ -105,6 +105,34 @@
         "list_item_3": "Registration fee：Free this year.",
         "list_item_4": "The Original Story Concept session is a special event and does not accept applications."
       }
+    },
+    "MarketPage": {
+      "title": "MARKET",
+      "paragraph": "“Story to Screen” selects story IPs with the potential for audiovisual adaptation, ranging from fiction and non-fiction, comics, and original story concepts. In collaboration with the international screen adaptation promotion brand “Shoot the Book!”, it aims to open up more opportunities for transmedia IP development, allowing good stories to be seen. A professional jury will choose one work from the selected entries of the Fiction & Non-fiction and Comics sessions to award a prize of TWD 300,000.",
+      "features": {
+        "feature_1": {
+          "title": "Story to Screen： Fiction & Non-fiction",
+          "content": "The Fiction & Non-Fiction session focuses on Taiwanese written works with potential for screen adaptation, inviting novels, non-fictional, and non-literary writings to participate. Amidst the global trend of adapting publications into film and TV series, TCCF PITCHING offers a platform that showcases the freedom, rich stories, creative energy, and market potential of Taiwanese written works, driving the production of more Taiwanese film and TV adaptations."
+        },
+        "feature_2": {
+          "title": "Story to Screen：Comics",
+          "content": "This year, we have added a Comics session, targeting film and TV producers and investors in search of comic book IPs. We invite various types of original Taiwanese comics, including traditional manga and webtoons, to showcase their diverse, unique, and innovative characteristics, as well as their high potential for visual adaptation and expansion. Our aim is to facilitate the transmedia development of more Taiwanese comics and their adaptation into film and TV works."
+        },
+        "feature_3": {
+          "title": "Story to Screen：Original Story Concept",
+          "content": "In connection with the first Original Story Concept Contest, the Original Story Concept session provides an excellent platform for the top five works of the contest. Bringing together talented creators from across Mandarin-speaking regions, this session unveils brand-new stories never before made public, injecting even more exciting creative energy into the TCCF PITCHING conference. "
+        },
+        "feature_4": {
+          "title": "Shoot the Book! TCCF",
+          "content": "In collaboration with the Civil Society of French-Language Publishers (SCELF), the internationally renowned screen adaptation brand “Shoot the Book!” will make its debut in Taiwan! Targeting published works with both screen adaptation and international market potential, the Shoot the Book! TCCF session will showcase both Taiwanese and French screen adaptation proposals, providing producers and investors with more diverse and internationalized story content and further fostering opportunities for multinational collaboration."
+        }      
+      }, 
+      "list": {
+        "list_item_1": "To register, please see “2024 TCCF PITCHING Application Instructions”.",
+        "list_item_2": "Application period：June 3, 2024 (10:00) to 31 July, 2024 (17:00).",
+        "list_item_3": "Registration fee：Free this year.",
+        "list_item_4": "The Original Story Concept session is a special event and does not accept applications."
+      }
     }
    
 }
