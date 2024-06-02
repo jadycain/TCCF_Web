@@ -1,5 +1,5 @@
 import styles from "./page.module.scss";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/navigation";
 
 export default function SubmissionPage() {
