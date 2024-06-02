@@ -117,88 +117,6 @@ a {
 
 }
 
-
-.progress {
-  position: absolute;
-  width: 80px;
-  height: 80px;
-  margin: 0;
-  padding: 0;
-  bottom: 0
-}
-
-.progress svg {
-  transform: translateX(-100px) rotate(-90deg);
-}
-
-circle {
-  stroke-dashoffset: 0;
-  stroke-width: 5%;
-  fill: none;
-  
-}
-
-.bg {
-  stroke: var(--accent);
-  opacity: 0.2;
-}
-
-.progress .indicator {
-  stroke: red;
-}
-
-.fakeSection {
-  height: calc(100vh - 100px);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid pink;
-  position: relative;
-  
-}
-
-.fakeSection div {
-  width: 200px;
-  height: 300px;
-  border: 2px dotted blue;
-  position: relative;
-  
-}
-
-// .fakeSection {
-//   height: calc(100vh - 100px);
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   position: relative;
-//   scroll-snap-align: center;
-//   perspective: 500px;
-//   position: sticky;
-//   top: 0;
-//  border: 1px solid pink;
-
-//   div {
-//     width: 300px;
-//     height: 400px;
-//     position: relative;
-//     max-height: 90vh;
-//     margin: 20px;
-//     border: 1px solid blue;
-//     overflow: hidden;
-//   }
-// }
-
-// .fakeImage {
-//   position: absolute;
-//   top: 0;
-//   left: 0;
-//   right: 0;
-//   bottom: 0;
-//   width: 100%;
-//   height: 100%;
-// }
-
-
 .active {
 
   span{
@@ -230,4 +148,49 @@ ol {
     content: counters(item, ".") " "; 
     counter-increment: item 
   }
+}
+
+
+
+.testSection {
+
+  height: 200vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    div {
+      width: 200px;
+      height: 300px;
+      border: 2px dotted red;
+      position: relative;
+    }
+
+    .progress {
+      position: sticky;
+      top: 0;
+      width: 80px;
+      height: 80px;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .progress svg {
+      transform: translateX(-100px) rotate(-90deg);
+    }
+    
+    circle {
+      stroke-dashoffset: 0;
+      stroke-width: 5%;
+      fill: none;
+    }
+    
+    .bg {
+      stroke: blank;
+      opacity: 0.2;
+    }
+    
+    .progress .indicator {
+      stroke: red;
+    }
+
 }

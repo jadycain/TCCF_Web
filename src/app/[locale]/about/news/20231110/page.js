@@ -10,6 +10,7 @@ const NewsDetailPage = () => {
     <div className="articleWrapper">
       <div className="articleWrapper__container">
         <h1 className="articleWrapper__container_title">{t("title")}</h1>
+        <p className="articleWrapper__container_date">2023.11.10</p>
         <div className="articleWrapper__container_banner">
           <ImageLoader
             src={"/images/about/news/20240510/banner.jpg"}
@@ -168,6 +169,19 @@ const NewsDetailPage = () => {
           <div className="articleWrapper__container_content">
             <p className="articleWrapper__container_content__paragraph">
               {t.rich("paragraph_1", {
+                br: () => <br />,
+              })}
+              {t.rich("paragraph_1_1", {
+                link: (chunks) => (
+                  <Link
+                    href="https://deadline.com/tag/cnc/"
+                    style={{ color: "#2B5F75" }}
+                  >
+                    {chunks}
+                  </Link>
+                ),
+              })}
+              {t.rich("paragraph_1_2", {
                 br: () => <br />,
               })}
             </p>

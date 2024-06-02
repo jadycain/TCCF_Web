@@ -28,7 +28,6 @@
 
             &__logo {
                 
-                border: 1px solid rebeccapurple;
 
                 @include RWD(sm) {
                    width: 150px;

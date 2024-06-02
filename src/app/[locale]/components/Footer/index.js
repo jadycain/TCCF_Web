@@ -50,7 +50,7 @@ export default function Footer() {
             </li>
             <li>
               <Link
-                href="hhttps://www.linkedin.com/company/82535470/"
+                href="https://www.linkedin.com/company/82535470/"
                 target="_blank"
               >
                 <FaLinkedin />

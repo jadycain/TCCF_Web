@@ -145,10 +145,16 @@ export default function Sidebar() {
                           styles.sidebarWrapper__menuList_menuItem__menuItemContainer
                         }
                       >
+                        {console.log(menu.link)}
                         <Link
                           href={menu.link}
                           style={{
-                            color: pathname === menu.link ? "#51BA97" : "",
+                            fontWeight:
+                              `/${pathname.split("/")[2]}/${
+                                pathname.split("/")[3]
+                              }` === menu.link
+                                ? "bold"
+                                : "regular",
                           }}
                         >
                           {/* <div

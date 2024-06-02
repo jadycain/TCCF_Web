@@ -49,15 +49,20 @@ export default function Header() {
       name: t("about"),
       icon: <RxCube />,
       isHovered: false,
-      color: "#171717",
+      color: "#33A6B8",
       menu: [
         {
           id: 1,
+          title: t("about"),
+          link: "/about",
+        },
+        {
+          id: 2,
           title: t("news"),
           link: "/about/news",
         },
         {
-          id: 2,
+          id: 3,
           title: t("press"),
           link: "/about/media",
         },
@@ -70,6 +75,12 @@ export default function Header() {
       isHovered: false,
       color: "#50be9c",
       menu: [
+        {
+          id: 1,
+          title: t("pitching"),
+          link: "/pitching",
+          icon: <RxCube />,
+        },
         {
           id: 1,
           title: t("project"),
@@ -174,6 +185,18 @@ export default function Header() {
     });
   };
 
+  const toogleHambuger = () => {
+    setIsOpen(!isOpen);
+    setLinks(
+      links.map((data) => {
+        return {
+          ...data,
+          isOpen: false,
+        };
+      })
+    );
+  };
+
   return (
     <div className={styles.header}>
       <div className={styles.header__container}>
@@ -204,17 +227,21 @@ export default function Header() {
           <div className={styles.header__container_nav__container}>
             {links.map((link) => (
               <Fragment key={link.href}>
+                {/* {console.log(pathname.split("/")[2].startsWith(link.href))} */}
                 <Link
-                  href={link.href}
+                  href={windowSize.width > 820 ? link.href : ""}
                   className={styles.header__container_nav__container_mainLink}
                   onMouseEnter={() => handleEnter(link.href)}
                   onMouseLeave={() => handleLeave(link.href)}
                   onClick={(e) => toogleSubMenu(e, link.href)}
                   style={{
-                    borderColor:
-                      windowSize.width > 820 && pathname.startsWith(link.href)
+                    color:
+                      windowSize.width > 820 &&
+                      pathname
+                        ?.split("/")[2]
+                        ?.startsWith(link.href?.split("/")[1])
                         ? link.color
-                        : "transparent",
+                        : "",
                   }}
                 >
                   <motion.div
@@ -275,7 +302,7 @@ export default function Header() {
 
         <div
           className={styles.header__container_hambugerWrapper}
-          onClick={() => setIsOpen(!isOpen)}
+          onClick={toogleHambuger}
         >
           <div
             className={`${

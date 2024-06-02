@@ -210,8 +210,7 @@ export default function SubmissionPage() {
                 {t.rich("list_11.list_item_2", {
                   link: (chunks) => (
                     <Link
-                      href="https://drive.google.com/file/d/1Oy6QXn3rlB2iS0hWEotCjeHBzERpgM_d/view?usp=sharing"
-                      target="_blank"
+                      href="https://drive.google.com/uc?export=download&id=1Oy6QXn3rlB2iS0hWEotCjeHBzERpgM_d"
                       style={{ color: "#2B5F75" }}
                     >
                       {chunks}
@@ -223,8 +222,8 @@ export default function SubmissionPage() {
                 {t.rich("list_11.list_item_3", {
                   link: (chunks) => (
                     <Link
-                      href="https://drive.google.com/file/d/1VAef8pG0kpXjaAkpWFeSiN7CkHPH0WST/view?usp=sharing"
-                      target="_blank"
+                      href="https://drive.google.com/uc?export=download&id=1VAef8pG0kpXjaAkpWFeSiN7CkHPH0WST"
+                      download
                       style={{ color: "#2B5F75" }}
                     >
                       {chunks}

@@ -14,6 +14,7 @@ const NewsDetailPage = () => {
     <div className="articleWrapper">
       <div className="articleWrapper__container">
         <h1 className="articleWrapper__container_title">{t("title")}</h1>
+        <p className="articleWrapper__container_date">2024.05.10</p>
         <div className="articleWrapper__container_banner">
           <ImageLoader
             src={"/images/about/news/20240510/banner.jpg"}
@@ -32,11 +33,46 @@ const NewsDetailPage = () => {
           <p className="articleWrapper__container_content__paragraphTitle">
             {t("paragraph_title_1")}
           </p>
-          <p className="articleWrapper__container_content__paragraph">
-            {t.rich("paragraph_2", {
-              br: () => <br />,
-            })}
-          </p>
+
+          {useLocale() === "zh-hant" ? (
+            <p className="articleWrapper__container_content__paragraph">
+              {t.rich("paragraph_2", {
+                br: () => <br />,
+              })}
+            </p>
+          ) : (
+            <p className="articleWrapper__container_content__paragraph">
+              {t.rich("paragraph_2", {
+                br: () => <br />,
+              })}
+              {t.rich("paragraph_2_1", {
+                link: (chunks) => (
+                  <Link
+                    href="https://ccdp.taicca.tw/en/"
+                    target="_blank"
+                    style={{ color: "#2B5F75" }}
+                  >
+                    {chunks}
+                  </Link>
+                ),
+              })}
+              {t.rich("paragraph_2_2", {
+                link: (chunks) => (
+                  <Link
+                    href="https://en.taicca.tw/article/5fe86426"
+                    target="_blank"
+                    style={{ color: "#2B5F75" }}
+                  >
+                    {chunks}
+                  </Link>
+                ),
+              })}
+              {t.rich("paragraph_2_3", {
+                br: () => <br />,
+              })}
+            </p>
+          )}
+
           <p className="articleWrapper__container_content__paragraphTitle">
             {t("paragraph_title_2")}
           </p>
@@ -82,95 +118,6 @@ const NewsDetailPage = () => {
             <li>{t("list.list_item_3")}</li>
           </ul>
         </div>
-
-        {/* <div className="articleWrapper__container_content">
-          {data.article.map((item) => (
-            <Fragment key={item.id}>
-              {(() => {
-                switch (item.type) {
-                  case "paragraph":
-                    return (
-                      <p className="articleWrapper__container_content__paragraph">
-                        {item.text}
-                      </p>
-                    );
-
-                  case "paragraphTitle":
-                    return (
-                      <p className="articleWrapper__container_content__paragraphTitle">
-                        {item.text}
-                      </p>
-                    );
-                  case "subtitle":
-                    return (
-                      <h3 className="articleWrapper__container_content__subtitle">
-                        {item.text}
-                      </h3>
-                    );
-                  case "innertitle":
-                    return (
-                      <h4 className="articleWrapper__container_content__innertitle">
-                        {item.text}
-                      </h4>
-                    );
-                  case "image":
-                    return (
-                      <div className="articleWrapper__container_content__images">
-                        <ImageLoader
-                          src={item.link}
-                          sizes={"100%"}
-                          style={{ width: "100%", height: "auto" }}
-                          alt={"hero"}
-                        />
-                      </div>
-                    );
-                  case "noneStyleList": {
-                    return (
-                      <Fragment>
-                        {item.content.map((el, index) => (
-                          <div
-                            className="articleWrapper__container_content__nonelistWrapper"
-                            key={index}
-                          >
-                            <div className="articleWrapper__container_content__nonelistWrapper_listTitle">
-                              {el.title}
-                            </div>
-                            <ul className="articleWrapper__container_content__nonelistWrapper_list">
-                              {el.item.map((value, index) => (
-                                <li key={index}>{value}</li>
-                              ))}
-                            </ul>
-                          </div>
-                        ))}
-                      </Fragment>
-                    );
-                  }
-                  case "styleList": {
-                    return (
-                      <Fragment>
-                        {item.content.map((el, index) => (
-                          <div
-                            className="articleWrapper__container_content__nonelistWrapper"
-                            key={index}
-                          >
-                            <div className="articleWrapper__container_content__nonelistWrapper_listTitle">
-                              {el.title}
-                            </div>
-                            <ul className="articleWrapper__container_content__nonelistWrapper_list">
-                              {el.item.map((value, index) => (
-                                <li key={index}> {value}</li>
-                              ))}
-                            </ul>
-                          </div>
-                        ))}
-                      </Fragment>
-                    );
-                  }
-                }
-              })()}
-            </Fragment>
-          ))}
-        </div> */}
       </div>
     </div>
   );

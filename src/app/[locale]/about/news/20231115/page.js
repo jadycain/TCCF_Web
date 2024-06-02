@@ -14,6 +14,7 @@ const NewsDetailPage = () => {
     <div className="articleWrapper">
       <div className="articleWrapper__container">
         <h1 className="articleWrapper__container_title">{t("title")}</h1>
+        <p className="articleWrapper__container_date">2023.11.15</p>
         <div className="articleWrapper__container_banner">
           <ImageLoader
             src={"/images/about/news/20231115/banner.jpg"}

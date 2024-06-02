@@ -4,15 +4,29 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    position: relative;
+    
+
+
+    &__fakeContainer {
+        border: 1px solid rebeccapurple;
+        position: sticky;
+        top: 0;
+        display: flex;
+
+        div {
+            border: 1px solid blue;
+            width: 100%;
+        }
+    }
 
     
 
     &__container {
-        width: 80vw;
+        width: 100%;
         display: flex;
         justify-content: space-between;
         gap: 50px;
+   
 
 
         &_image {

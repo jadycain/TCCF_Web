@@ -51,13 +51,13 @@ export default function MarketPage() {
 
             <div className="pageWrapper__container_contentWrapper__buttonWrapper">
               <Button
-                link={"/"}
+                link={"submission"}
                 target="_blank"
                 linkText={btnT("submission_requirements")}
               />
               <Button
                 link={"https://dash.taicca.tw/brd/tccf-sm-2024/apply"}
-                target="_blank"
+                blank={true}
                 linkText={btnT("submission_website")}
               />
             </div>
