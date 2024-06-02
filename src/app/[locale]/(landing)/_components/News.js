@@ -18,7 +18,7 @@ export default function News() {
   const titleT = useTranslations("Nav");
   const t = useTranslations("NewsCard");
   const tagT = useTranslations("NewsTag");
-  const btnTag = useTranslations("actionButton");
+  const btnTag = useTranslations("ActionButton");
   const windowSize = useWindowSize();
   const [slideSize, setSlideSize] = useState(3);
   const refreshViewHeight = () => {

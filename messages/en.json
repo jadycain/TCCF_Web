@@ -25,7 +25,86 @@
       "20231115_title": "A Record Number of International Professionals Attend the Fourth Edition of TCCF",
       "20231110_title": "Taiwan-Japan Heartfelt Documentary \"After the Snowmelt \" and Filipino Fantasy Feature \"Mother Maybe \" Win Big at TCCF 2023"
     },
-    "actionButton": {
-      "read_more": "Read More"
+    "ActionButton": {
+      "read_more": "Read More",
+      "download": "Download",
+      "submission_requirements": "Submission Requirements",
+      "submission_website": "Submission Website"
+
+    },
+    "AboutPage": {
+      "title": "ABOUT TCCF",
+      "paragraph": "“Taiwan Creative Content Fest (TCCF)” is a major annual event in the Asian creative content industry, attracting buyers and sellers internationally to converge and engage in networking and commercial negotiations. Divided into three main sections — PITCHING, MARKET, and FORUM — TCCF provides business services for the cultural content industry. By matching promising IPs with international financiers, driving commercial transactions and development between professionals worldwide, and facilitating the exchange of practical experiences and future industry trends, TCCF acts as a bridge that connects content creators and professional talents with industry resources."
+    },
+    "PitichingPage": {
+      "title": "TCCF PITCHING",
+      "paragraph": "TCCF PITCHING brings together promising content proposals from domestic and international markets, including feature films, series, animations, documentaries, publishing, comics, and original story concepts. It attracts professionals from the global content industry, facilitating the matching of proposals with international resources and funding, thereby fostering the creation of globally popular works. Selected teams will have the opportunity to compete for sponsored awards and prizes provided by TAICCA and other organizations.<br></br><br></br>The 2024 TCCF PITCHING conference will officially take place from November 5th (Tuesday) to November 8th (Friday) at Taipei’s Skylight Convention Center, Nangang Exhibition Center, Hall 2, 7F. It will be divided into two main sections: “Project to Screen” and “Story to Screen”. Showcasing highly promising film and television projects and story proposals, TCCF PITCHING is the premier destination for international industry professionals seeking original content from Asia!",
+      "list_title": "Important Dates：",
+      "list": {
+        "list_item_1": "June - July：Call for projects begins",
+        "list_item_2": "Early September：Announcement of selected entries for each session",
+        "list_item_3": "October：Purchase of TCCF badges and registration for each session open to domestic and international professionals",
+        "list_item_4": "November 8 - 11：TCCF PITCHING"
+      },
+      "notice": {
+        "notice_item_1": "＊ Registration：Please click on the “Project to Screen” and “Story to Screen” options on the left menu, and be sure to read the registration guidelines carefully before entering the registration system.",
+        "notice_item_2": "＊ If you have any questions, please contact：project@tccf.tw"
+      }
+    },
+    "ProjectPage": {
+      "title": "Project to Screen",
+      "paragraph": "“Project to Screen” encompasses categories such as feature films, series, animations, and documentaries. Eye-catching proposals will be selected by an international jury, and projects co-developed by the “TAICCA School” and international partners will also debut here for the first time. Selected teams will have the opportunity to compete for the “TAICCA AWARD: Best Project”, which includes a prize of USD 30,000. More awards will be announced soon.",
+      "features": {
+        "feature_1": {
+          "title": "Project to Screen：Feature Films",
+          "content": "The Feature Films session is open for teams from around the world to register and participate. Teams with selected project proposals will be invited to attend a pitching training workshop, increasing their fundraising and international co-financing and co-production opportunities."
+        },
+        "feature_2": {
+          "title": "Project to Screen：Series",
+          "content": "The Series session is open for teams from around the world to register and participate. Teams with selected project proposals will be invited to attend a pitching training workshop, increasing their fundraising and international co-financing and co-production opportunities."
+        },
+        "feature_3": {
+          "title": "Project to Screen：Animation Films and Series",
+          "content": "The Animation Film and Series session is open for teams from around the world to register and participate. Teams with selected project proposals will be invited to attend a pitching training workshop, increasing their fundraising and international co-financing and co-production opportunities."
+        },
+        "feature_4": {
+          "title": "Project to Screen：Documentary Films and Series",
+          "content": "The Documentary Films and Series session is open for teams from around the world to register and participate. Teams with selected project proposals will be invited to attend a pitching training workshop, increasing their fundraising and international co-financing and co-production opportunities."
+        }      
+      }, 
+      "list": {
+        "list_item_1": "To register, please see “2024 TCCF PITCHING Application Instructions”.",
+        "list_item_2": "Application period：June 3, 2024 (10:00) to 31 July, 2024 (17:00).",
+        "list_item_3": "Registration fee：NTD 1,200 per entry."
+      }
+    },
+    "StoryPage": {
+      "title": "Story to Screen",
+      "paragraph": "“Story to Screen” selects story IPs with the potential for audiovisual adaptation, ranging from fiction and non-fiction, comics, and original story concepts. In collaboration with the international screen adaptation promotion brand “Shoot the Book!”, it aims to open up more opportunities for transmedia IP development, allowing good stories to be seen. A professional jury will choose one work from the selected entries of the Fiction & Non-fiction and Comics sessions to award a prize of TWD 300,000.",
+      "features": {
+        "feature_1": {
+          "title": "Story to Screen： Fiction & Non-fiction",
+          "content": "The Fiction & Non-Fiction session focuses on Taiwanese written works with potential for screen adaptation, inviting novels, non-fictional, and non-literary writings to participate. Amidst the global trend of adapting publications into film and TV series, TCCF PITCHING offers a platform that showcases the freedom, rich stories, creative energy, and market potential of Taiwanese written works, driving the production of more Taiwanese film and TV adaptations."
+        },
+        "feature_2": {
+          "title": "Story to Screen：Comics",
+          "content": "This year, we have added a Comics session, targeting film and TV producers and investors in search of comic book IPs. We invite various types of original Taiwanese comics, including traditional manga and webtoons, to showcase their diverse, unique, and innovative characteristics, as well as their high potential for visual adaptation and expansion. Our aim is to facilitate the transmedia development of more Taiwanese comics and their adaptation into film and TV works."
+        },
+        "feature_3": {
+          "title": "Story to Screen：Original Story Concept",
+          "content": "In connection with the first Original Story Concept Contest, the Original Story Concept session provides an excellent platform for the top five works of the contest. Bringing together talented creators from across Mandarin-speaking regions, this session unveils brand-new stories never before made public, injecting even more exciting creative energy into the TCCF PITCHING conference. "
+        },
+        "feature_4": {
+          "title": "Shoot the Book! TCCF",
+          "content": "In collaboration with the Civil Society of French-Language Publishers (SCELF), the internationally renowned screen adaptation brand “Shoot the Book!” will make its debut in Taiwan! Targeting published works with both screen adaptation and international market potential, the Shoot the Book! TCCF session will showcase both Taiwanese and French screen adaptation proposals, providing producers and investors with more diverse and internationalized story content and further fostering opportunities for multinational collaboration."
+        }      
+      }, 
+      "list": {
+        "list_item_1": "To register, please see “2024 TCCF PITCHING Application Instructions”.",
+        "list_item_2": "Application period：June 3, 2024 (10:00) to 31 July, 2024 (17:00).",
+        "list_item_3": "Registration fee：Free this year.",
+        "list_item_4": "The Original Story Concept session is a special event and does not accept applications."
+      }
     }
+   
 }

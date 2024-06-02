@@ -25,7 +25,85 @@
       "20231115_title": "「2023 TCCF 創意內容大會」圓滿成功！ 法日韓美星等 29 國專業人士齊聚臺北　預估延伸交易金額超越去年成績",
       "20231110_title": "2023 TCCF 提案大會《雪水消融的季節》、《Mother Maybe》勇奪 3 萬美金雙首獎"
     },
-    "actionButton": {
-      "read_more": "查看更多"
+    "ActionButton": {
+      "read_more": "查看更多",
+      "download": "下載",
+      "submission_requirements": "徵件辦法",
+      "submission_website": "我要報名"
+    },
+    "AboutPage": {
+      "title": "關於創意內容大會",
+      "paragraph": "「TCCF 創意內容大會」是亞洲重要內容產業盛會，每年吸引全球多國買賣家齊聚交流洽商，共分成「PITCHING 提案大會」、「MARKET 市場展」與「FORUM 國際論壇」三大單元。TCCF 持續提供文化內容產業商務服務，媒合潛力 IP 提案與國際資金，帶動全球專業人士商務交易與開發，交流實務經驗及產業未來趨勢，為內容產製與專業人才對接資源。"
+    },
+    "PitichingPage": {
+      "title": "PITCHING提案大會介紹",
+      "paragraph": "「TCCF PITCHING 提案大會」匯集國內外市場潛力內容提案，囊括長片、影集、動畫、紀錄片，乃至出版、漫畫、原創故事概念，吸引來自全球的內容產業人士參與，媒合提案與國際資源及資金，催生全球熱門作品。入選團隊將有機會競逐由文化內容策進院與其它單位所提供的冠名獎項和獎金。 <br></br><br></br>2024 年提案大會將於 11 月 5 日至 8 日於南港展覽館二館 7 樓舉行，分為「 企畫專場」及「 故事專場」兩大專場， 展示深具潛力的影視企畫與故事提案，成為國際產業人士尋找亞洲原創內容的最佳選擇！",
+      "list_title": "重要時程：",
+      "list": {
+        "list_item_1": "6 - 7 月：徵件開始",
+        "list_item_2": "9 月初：各專場入選企畫公告",
+        "list_item_3": "10 月：國內外專業人士展證開放購買、各專場報名",
+        "list_item_4": "11/5 - 11/08：PITCHING 提案大會"
+      },
+      "notice": {
+        "notice_item_1": "＊ 報名：請點選左側「Project to Screen 企畫專場」及「Story to Screen 故事專場」選單，並於報名前詳閱報名須知後，再進入報名系統",
+        "notice_item_2": "＊  如有任何相關疑問請洽：project@tccf.tw"
+      }
+    },
+    "ProjectPage": {
+      "title": "Project to Screen 企畫專場",
+      "paragraph": "「Project to Screen 企畫專場」囊括長片、劇集、動畫及紀錄片等類別，將由國際評審選出吸睛提案，「文策學院 TAICCA School」 與國際單位合作的提案項目也將在此首次曝光。入選團隊將有機會競逐「TAICCA AWARD：Best Project」獎項及獎金美金三萬元，更多獎項將陸續公布。",
+      "features": {
+        "feature_1": {
+          "title": "長片專場 Feature Films",
+          "content": "長片專場開放全球團隊報名參加。入選企畫案之團隊，將可參與提案培訓工作坊，增加募資和促成國際合資合製的機會。"
+        },
+        "feature_2": {
+          "title": "影集專場 Series",
+          "content": "影集專場開放全球團隊報名參加。入選企畫案之團隊，將可參與提案培訓工作坊，增加募資和促成國際合資合製的機會。"
+        },
+        "feature_3": {
+          "title": "動畫長片及影集專場 Animation Films and Series",
+          "content": "動畫長片及影集專場開放全球團隊報名參加。入選企畫案之團隊，將可參與提案培訓工作坊，增加募資和促成國際合資合製的機會。"
+        },
+        "feature_4": {
+          "title": "紀錄片及系列專場 Documentary Films and Series",
+          "content": "參與提案培訓工作坊，增加募資和促成國際合資合製的機會。"
+        }      
+      }, 
+      "list": {
+        "list_item_1": "報名提案：請先詳閱「2024 TCCF PITCHING 提案大會徵件報名須知」",
+        "list_item_2": "徵件期間：2024 年 6 月 3 日（10:00）至 7 月 31 日（17:00）止（UTC/GMT +08:00）",
+        "list_item_3": "報名費：每件新台幣 1,200 元整"
+      }
+    },
+    "StoryPage": {
+      "title": "Story to Screen  故事專場",
+      "paragraph": "「Story to Screen 故事專場」精選具影視改編潛力的故事 IP，專場涵蓋出版文本、漫畫、原創故事概念等，並與國際轉譯影視推廣品牌 Shoot the Book! 合作，開啟更多 IP 跨域發展機會，讓好故事被看見。專業評審亦將從出版文本、漫畫兩專場的入選作品中，挑出一件作品頒發新台幣 30 萬元獎金。",
+      "features": {
+        "feature_1": {
+          "title": "出版文本專場  Fiction & Non-Fiction",
+          "content": "出版文本專場聚焦深具影視改編潛力的臺灣文本作品，邀請國內小說、散文、非文學等各式出版文本參與，在全球出版改編影視熱潮之中，透過 TCCF PITCHING 提案大會的平台，向國內外影視製作人、投資方，展示臺灣出版文本自由、豐富的故事魅力，以及深具市場潛力的創意能量，期待推動更多臺灣出版文本改編成影視作品。"
+        },
+        "feature_2": {
+          "title": "漫畫專場 Comics",
+          "content": "今年擴增舉辦的漫畫專場，精確瞄準正找尋漫畫 IP 的影視製作人與投資方，邀請頁漫、條漫等臺灣原創漫畫共襄盛舉，展示該類型多元獨特的樣貌，以及影像化的高度潛力與延展性，期盼能讓更多臺灣漫畫跨域發展，改編成影視作品。"
+        },
+        "feature_3": {
+          "title": "原創故事概念專場 Original Story Concept",
+          "content": "與首屆原創故事概念大賽串聯，原創故事概念專場提供大賽前五名作品絕佳的展示平台。匯集全華語地區的潛力創作者，帶來從未公開發表過的嶄新故事，為 TCCF PITCHING 提案大會注入更精采豐沛的創意能量。"
+        },
+        "feature_4": {
+          "title": "Shoot the Book! TCCF 專場  Shoot the Book! TCCF ",
+          "content": "與法國 SCELF 法語人出版協會攜手合作，國際知名的出版轉影視品牌 Shoot the Book! 將首次登陸臺灣！ 瞄準兼具影視改編與國際市場潛力的出版作品，Shoot the Book! TCCF 專場將同時展示臺灣與法國的出版轉影視提案，提供影視製作人與投資方更多元、國際化的故事內容，期盼能促成更多跨國合作的機會。"
+        }      
+      }, 
+      "list": {
+        "list_item_1": "報名提案：請先詳閱「2024 TCCF PITCHING 提案大會徵件報名須知」",
+        "list_item_2": "徵件期間：2024 年 6 月 3 日（10:00）至 7 月 31 日（17:00）止（UTC/GMT +08:00）",
+        "list_item_3": "報名費：今年度免收費",
+        "list_item_4": "原創故事概念專場為特別活動專場，不提供報名"
+      }
     }
-} 
+  
+}

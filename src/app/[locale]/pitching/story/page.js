@@ -1,8 +1,11 @@
 import styles from "./page.module.scss";
 import ImageLoader from "@/app/[locale]/components/ui/image-loader";
 import Button from "@/app/[locale]/components/ui/button";
+import { useTranslations } from "next-intl";
 
 export default function MarketPage() {
+  const t = useTranslations("StoryPage");
+  const btnT = useTranslations("ActionButton");
   const articleData = [
     {
       main: "「TCCF MARKET 市場展」聚焦國際影視內容與潛力 IP 的版權交易，擴大結合影視產業鏈，涵蓋內容開發、拍攝資源、影像技術等各領域業者與專業人士，探索商業合作與交流，拓展全球市場。",
@@ -67,48 +70,46 @@ export default function MarketPage() {
         </div>
         <div className="pageWrapper__container_contentWrapper">
           <h1 className="pageWrapper__container_contentWrapper__title">
-            Story to Screen 故事專場
+            {t("title")}
           </h1>
           <div className="pageWrapper__container_contentWrapper__content">
-            <p>
-              「Story to Screen 故事專場」精選具影視改編潛力的故事
-              IP，專場涵蓋出版文本、漫畫、原創故事概念等，並與國際轉譯影視推廣品牌
-              Shoot the Book! 合作，開啟更多 IP
-              跨域發展機會，讓好故事被看見。專業評審亦將從出版文本、漫畫兩專場的入選作品中，挑出一件作品頒發新台幣
-              30 萬元獎金。
-            </p>
+            <p>{t("paragraph")}</p>
 
-            {articleData[0].features.map((data, index) => (
+            {[1, 2, 3, 4].map((key) => (
               <div
                 className="pageWrapper__container_contentWrapper__content_paragraphWrapper"
-                key={index}
+                key={key}
               >
                 <h2 className="pageWrapper__container_contentWrapper__content_paragraphWrapper__title">
-                  {data.title}
+                  {t(`features.feature_${key}.title`)}
                 </h2>
                 <div className="pageWrapper__container_contentWrapper__content_paragraphWrapper__paragraph">
-                  {data.content}
+                  {t(`features.feature_${key}.content`)}
                 </div>
               </div>
             ))}
 
             <ul className="pageWrapper__container_contentWrapper__content_list">
-              {articleData[0].list.map((data, index) => (
+              {[1, 2, 3, 4].map((key) => (
                 <li
                   className="pageWrapper__container_contentWrapper__content_list__item"
-                  key={index}
+                  key={key}
                 >
-                  {data.content}
+                  {t(`list.list_item_${key}`)}
                 </li>
               ))}
             </ul>
 
             <div className="pageWrapper__container_contentWrapper__buttonWrapper">
-              <Button link={"/"} target="_blank" linkText={"徵件辦法"} />
+              <Button
+                link={"/"}
+                target="_blank"
+                linkText={btnT("submission_requirements")}
+              />
               <Button
                 link={"https://dash.taicca.tw/brd/tccf-sm-2024/apply"}
                 target="_blank"
-                linkText={"我要報名"}
+                linkText={btnT("submission_website")}
               />
             </div>
           </div>

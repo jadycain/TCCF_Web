@@ -3,8 +3,11 @@ import { useState } from "react";
 import styles from "./page.module.scss";
 import Button from "@/app/[locale]/components/ui/button";
 import { FiFileText } from "react-icons/fi";
+import { useTranslations } from "next-intl";
 
 export default function MediaPage() {
+  const navT = useTranslations("Nav");
+  const btnT = useTranslations("ActionButton");
   const downloadData = [
     {
       id: 1,
@@ -23,7 +26,7 @@ export default function MediaPage() {
       <div className="pageWrapper__container">
         <div className="pageWrapper__container_contentWrapper">
           <h1 className="pageWrapper__container_contentWrapper__title">
-            媒體專區
+            {navT("press")}
           </h1>
 
           <div className="pageWrapper__container_contentWrapper__content">
@@ -60,7 +63,7 @@ export default function MediaPage() {
                       >
                         <Button
                           link={data.link}
-                          linkText={"下載"}
+                          linkText={btnT("download")}
                           target="_blank"
                         />
                       </div>
