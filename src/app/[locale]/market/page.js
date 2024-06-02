@@ -41,10 +41,7 @@ export default function MarketPage() {
 
           <div className="pageWrapper__container_contentWrapper__buttonWrapper">
             <Button
-              link={
-                "https://docs.google.com/document/d/1XgJOLqvE8zO-CatRcO9Bg56sD9XKgzwtAKzphq6CBv4/edit?usp=sharing"
-              }
-              target="_blank"
+              link={"market/exhibitors"}
               linkText={btnT("call_for_exhibitors")}
             />
             <Button
