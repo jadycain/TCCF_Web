@@ -7,6 +7,7 @@ export default function submissionPage() {
 
   return (
     <div className="pageWrapper">
+      {console.log("2222")}
       <div className="pageWrapper__container">
         <div className="pageWrapper__container_contentWrapper">
           <h1 className="pageWrapper__container_contentWrapper__title">
