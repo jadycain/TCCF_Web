@@ -23,6 +23,8 @@ import Cube from "./Cube";
 export default function Introduce() {
   const [activeTab, setActiveTab] = useState(1);
 
+  console.log("test");
+
   const tablist = [
     {
       id: 1,
