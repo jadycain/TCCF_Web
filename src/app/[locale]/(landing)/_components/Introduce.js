@@ -74,7 +74,7 @@ export default function Introduce() {
         </div>
 
         {tablist
-          .filter((tab) => tab.id === activeTab)
+          .filter((tab) => tab?.id === activeTab)
           .map((data) => (
             <div
               className={styles.introduceSection__container_intro}
@@ -107,8 +107,8 @@ export default function Introduce() {
               key={tab.id}
               onClick={() => setActiveTab(tab.id)}
               style={{
-                background: activeTab === tab.id ? tab.color : "#fcfcfc",
-                color: activeTab === tab.id ? "white" : tab.color,
+                background: activeTab === tab?.id ? tab.color : "#fcfcfc",
+                color: activeTab === tab?.id ? "white" : tab.color,
               }}
             >
               <div
