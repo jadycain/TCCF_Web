@@ -201,13 +201,13 @@ ol {
 
 .container {
   perspective: 800px;
-  width: 200px;
-  height: 200px;
+  width: clamp(120px, 20vw, 200px);
+  height: clamp(120px, 20vw, 200px);
 }
 
 .cube {
-  width: 200px;
-  height: 200px;
+  width:clamp(120px, 20vw, 200px);
+  height: clamp(120px, 20vw, 200px);
   position: relative;
   transform-style: preserve-3d;
 }
@@ -221,26 +221,26 @@ ol {
 }
 
 .front {
-  transform: rotateY(0deg) translateZ(100px);
+  transform: rotateY(0deg) translateZ(calc(clamp(120px, 20vw, 200px) / 2));
   background-color: #f5adcc;
 }
 .right {
-  transform: rotateY(90deg) translateZ(100px);
+  transform: rotateY(90deg) translateZ(calc(clamp(120px, 20vw, 200px) / 2));
   background-color: #50be9c;
 }
 .back {
-  transform: rotateY(180deg) translateZ(100px);
+  transform: rotateY(180deg) translateZ(calc(clamp(120px, 20vw, 200px) / 2));
   background-color: #f3794c;
 }
 .left {
-  transform: rotateY(-90deg) translateZ(100px);
+  transform: rotateY(-90deg) translateZ(calc(clamp(120px, 20vw, 200px) / 2));
   background-color: #f290bb;
 }
 .top {
-  transform: rotateX(90deg) translateZ(100px);
+  transform: rotateX(90deg) translateZ(calc(clamp(120px, 20vw, 200px) / 2));
   background-color: #f8cbdf;
 }
 .bottom {
-  transform: rotateX(-90deg) translateZ(100px);
-  background-color: #7dcab6;
+  transform: rotateX(-90deg) translateZ(calc(clamp(120px, 20vw, 200px) / 2));
+  background-color: #22cc88;
 }
