@@ -7,7 +7,7 @@ export default function LandingPage() {
     <div>
       <Hero />
       <News />
-      <Introduce />
+      {/* <Introduce /> */}
     </div>
   );
 }
