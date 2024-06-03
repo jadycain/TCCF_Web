@@ -30,9 +30,9 @@ export default function PitchingPage() {
               })}
             </p>
             <ul className="pageWrapper__container_contentWrapper__content_list">
-              <li className="pageWrapper__container_contentWrapper__content_list__title">
+              <div className="pageWrapper__container_contentWrapper__content_list__title">
                 {t("list_title")}
-              </li>
+              </div>
               {[1, 2, 3, 4].map((key) => (
                 <li
                   className="pageWrapper__container_contentWrapper__content_list__item"

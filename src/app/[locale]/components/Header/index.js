@@ -45,6 +45,7 @@ export default function Header() {
 
   const [links, setLinks] = useState([
     {
+      id: 1,
       href: "/about",
       name: t("about"),
       icon: <RxCube />,
@@ -69,6 +70,7 @@ export default function Header() {
       ],
     },
     {
+      id: 2,
       href: "/pitching",
       name: t("pitching"),
       icon: <LiaChalkboardTeacherSolid />,
@@ -96,6 +98,7 @@ export default function Header() {
       ],
     },
     {
+      id: 3,
       href: "/market",
       name: t("market"),
       icon: <IoStorefrontOutline />,
@@ -103,6 +106,7 @@ export default function Header() {
       color: "#f69451",
     },
     {
+      id: 4,
       href: "/forum",
       name: t("forum"),
       icon: <HiOutlineChatAlt2 />,
@@ -128,7 +132,6 @@ export default function Header() {
   };
 
   const handleLeave = () => {
-    console.log("leave");
     setLinks(
       links.map((link) => {
         return {
@@ -227,9 +230,14 @@ export default function Header() {
           <div className={styles.header__container_nav__container}>
             {links.map((link) => (
               <Fragment key={link.href}>
-                {/* {console.log(pathname.split("/")[2].startsWith(link.href))} */}
                 <Link
-                  href={windowSize.width > 820 ? link.href : ""}
+                  href={
+                    windowSize.width > 820
+                      ? link.href
+                      : link.id >= 3
+                      ? link.href
+                      : ""
+                  }
                   className={styles.header__container_nav__container_mainLink}
                   onMouseEnter={() => handleEnter(link.href)}
                   onMouseLeave={() => handleLeave(link.href)}

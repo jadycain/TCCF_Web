@@ -1,6 +1,7 @@
 {
     "IndexPage": {
-      "title": "Hello world!"
+      "about_title": "ABOUT TCCF",
+      "about_description": "Taiwan Creative Content Fest (TCCF)” is a major annual event in the Asian creative content industry, attracting buyers and sellers internationally to converge and engage in networking and commercial negotiations. Divided into three main sections⸺PITCHING, MARKET, and FORUM⸺TCCF provides business services for the cultural content industry. By matching promising IPs with international financiers, driving commercial transactions and development between professionals worldwide, and facilitating the exchange of practical experiences and future industry trends, TCCF acts as a bridge that connects content creators and professional talents with industry resources."
     },
     "Nav": {
       "about": "ABOUT TCCF",

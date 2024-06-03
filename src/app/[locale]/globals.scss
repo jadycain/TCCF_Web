@@ -194,3 +194,53 @@ ol {
     }
 
 }
+
+
+
+
+
+.container {
+  perspective: 800px;
+  width: 200px;
+  height: 200px;
+}
+
+.cube {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+.side {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color:#f69451;
+  opacity: 0.6;
+}
+
+.front {
+  transform: rotateY(0deg) translateZ(100px);
+  background-color: #f5adcc;
+}
+.right {
+  transform: rotateY(90deg) translateZ(100px);
+  background-color: #50be9c;
+}
+.back {
+  transform: rotateY(180deg) translateZ(100px);
+  background-color: #f3794c;
+}
+.left {
+  transform: rotateY(-90deg) translateZ(100px);
+  background-color: #f290bb;
+}
+.top {
+  transform: rotateX(90deg) translateZ(100px);
+  background-color: #f8cbdf;
+}
+.bottom {
+  transform: rotateX(-90deg) translateZ(100px);
+  background-color: #7dcab6;
+}

@@ -3,7 +3,7 @@
     display: flex;
     align-items: flex-start;
     width: 100%;
-    overflow: hidden;
+   
     
     
 
@@ -12,6 +12,7 @@
         display: flex;
         justify-content: space-between;
         width: 100%;
+        overflow: hidden;
         // width: calc(100% - 250px);
     
     }
