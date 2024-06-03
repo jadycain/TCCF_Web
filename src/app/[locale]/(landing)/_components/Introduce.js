@@ -78,7 +78,7 @@ export default function Introduce() {
           .map((data) => (
             <div
               className={styles.introduceSection__container_intro}
-              key={tab.id}
+              key={data.id}
             >
               <div className={styles.introduceSection__container_intro__title}>
                 {data.name}
