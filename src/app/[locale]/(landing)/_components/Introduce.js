@@ -74,7 +74,10 @@ export default function Introduce() {
         {tablist
           .filter((tab) => tab.id === activeTab)
           .map((data) => (
-            <div className={styles.introduceSection__container_intro}>
+            <div
+              className={styles.introduceSection__container_intro}
+              key={tab.id}
+            >
               <div className={styles.introduceSection__container_intro__title}>
                 {data.name}
               </div>
@@ -99,6 +102,7 @@ export default function Introduce() {
               className={
                 styles.introduceSection__progressBarWrapper_progressBarList__progressBarItem
               }
+              key={tab.id}
               onClick={() => setActiveTab(tab.id)}
               style={{
                 background: activeTab === tab.id ? tab.color : "#fcfcfc",
