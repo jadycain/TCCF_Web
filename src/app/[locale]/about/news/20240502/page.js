@@ -50,12 +50,34 @@ const NewsDetailPage = () => {
               {t.rich("paragraph_3", {
                 br: () => <br />,
               })}
+              {t.rich("paragraph_4", {
+                link: (chunks) => (
+                  <Link
+                    href="https://ccdp.taicca.tw/"
+                    target="_blank"
+                    style={{ color: "#2B5F75" }}
+                  >
+                    {chunks}
+                  </Link>
+                ),
+              })}
+              {t.rich("paragraph_5", {
+                link: (chunks) => (
+                  <Link
+                    href="https://en.taicca.tw/article/5fe86426"
+                    target="_blank"
+                    style={{ color: "#2B5F75" }}
+                  >
+                    {chunks}
+                  </Link>
+                ),
+              })}
             </p>
             <p className="articleWrapper__container_content__paragraphTitle">
               {t("paragraph_title_2")}
             </p>
             <p className="articleWrapper__container_content__paragraph">
-              {t.rich("paragraph_4", {
+              {t.rich("paragraph_6", {
                 br: () => <br />,
               })}
             </p>
@@ -71,7 +93,7 @@ const NewsDetailPage = () => {
             </ul>
 
             <p className="articleWrapper__container_content__paragraph">
-              {t.rich("paragraph_5", {
+              {t.rich("paragraph_7", {
                 br: () => <br />,
               })}
             </p>
@@ -89,7 +111,7 @@ const NewsDetailPage = () => {
               {t("paragraph_main_title_2")}
             </h3>
             <p className="articleWrapper__container_content__paragraph">
-              {t.rich("paragraph_6", {
+              {t.rich("paragraph_8", {
                 br: () => <br />,
               })}
             </p>
@@ -107,7 +129,7 @@ const NewsDetailPage = () => {
               <li>{t("list_2.list_item_8")}</li>
             </ul>
             <p className="articleWrapper__container_content__paragraph">
-              {t.rich("paragraph_7", {
+              {t.rich("paragraph_9", {
                 br: () => <br />,
               })}
             </p>
@@ -123,12 +145,12 @@ const NewsDetailPage = () => {
               {t("paragraph_main_title_3")}
             </h3>
             <p className="articleWrapper__container_content__paragraph">
-              {t.rich("paragraph_8", {
+              {t.rich("paragraph_10", {
                 br: () => <br />,
               })}
             </p>
             <p className="articleWrapper__container_content__paragraph">
-              {t.rich("paragraph_9", {
+              {t.rich("paragraph_11", {
                 br: () => <br />,
               })}
             </p>

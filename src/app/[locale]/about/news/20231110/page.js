@@ -43,6 +43,19 @@ const NewsDetailPage = () => {
                 br: () => <br />,
               })}
             </p>
+            <p className="articleWrapper__container_content__paragraph">
+              {t.rich("paragraph_4", {
+                link: (chunks) => (
+                  <Link
+                    href="https://taicca.tw/article/d7330f8d"
+                    target="_blank"
+                    style={{ color: "#2B5F75" }}
+                  >
+                    {chunks}
+                  </Link>
+                ),
+              })}
+            </p>
 
             <ul className="articleWrapper__container_content__nonelistWrapper">
               <li>

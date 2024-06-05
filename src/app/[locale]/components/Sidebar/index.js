@@ -1,13 +1,9 @@
 "use client";
 import styles from "./sidebar.module.scss";
 import { Fragment, useState, useEffect } from "react";
-import { IoHomeOutline } from "react-icons/io5";
-import { IoBookmarkOutline } from "react-icons/io5";
 
-import { RiApps2Line } from "react-icons/ri"; // 創意內容大會
-import { GrCube } from "react-icons/gr"; // 提案大會
-import { AiOutlineInbox } from "react-icons/ai"; // 市場展
-import { IoMdChatboxes } from "react-icons/io"; // 國際論壇
+import { RiApps2Line } from "react-icons/ri";
+import { GrCube } from "react-icons/gr";
 
 import useWindowSize from "@/app/[locale]/(tool)/useWindowSize";
 
@@ -19,14 +15,6 @@ export default function Sidebar() {
   const t = useTranslations("Nav");
   const pathname = usePathname();
   const windowSize = useWindowSize();
-  const refreshViewHeight = () => {
-    const vh = windowSize.height * 0.01;
-    document.documentElement.style.setProperty("--vh", `${vh}px`);
-  };
-
-  useEffect(() => {
-    refreshViewHeight();
-  }, [windowSize.width]);
 
   const [menuDataList, setMenuDataList] = useState([
     {
@@ -145,7 +133,6 @@ export default function Sidebar() {
                           styles.sidebarWrapper__menuList_menuItem__menuItemContainer
                         }
                       >
-                        {console.log(menu.link)}
                         <Link
                           href={menu.link}
                           style={{
@@ -154,7 +141,7 @@ export default function Sidebar() {
                                 pathname.split("/")[3]
                               }` === menu.link
                                 ? "bold"
-                                : "regular",
+                                : "normal",
                           }}
                         >
                           {/* <div

@@ -46,7 +46,7 @@ export default function MarketPage() {
             />
             <Button
               link={"https://dash.taicca.tw/brd/tccf-me-2024/apply"}
-              target="_blank"
+              blank={true}
               linkText={btnT("submission_website")}
             />
           </div>

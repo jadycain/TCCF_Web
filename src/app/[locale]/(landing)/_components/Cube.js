@@ -1,3 +1,4 @@
+import style from "./cube.module.scss";
 import { useAnimationFrame } from "framer-motion";
 import { useRef } from "react";
 
@@ -11,14 +12,14 @@ export default function App() {
   });
 
   return (
-    <div className="container">
-      <div className="cube" ref={ref}>
-        <div className="side front" />
-        <div className="side left" />
-        <div className="side right" />
-        <div className="side top" />
-        <div className="side bottom" />
-        <div className="side back" />
+    <div className={style.cube__container}>
+      <div className={style.cube__container_cubeObject} ref={ref}>
+        <div className={style.cube__container_cubeObject__front} />
+        <div className={style.cube__container_cubeObject__left} />
+        <div className={style.cube__container_cubeObject__right} />
+        <div className={style.cube__container_cubeObject__top} />
+        <div className={style.cube__container_cubeObject__bottom} />
+        <div className={style.cube__container_cubeObject__back} />
       </div>
     </div>
   );

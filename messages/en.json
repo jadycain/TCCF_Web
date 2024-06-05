@@ -1,8 +1,14 @@
 {
-    "IndexPage": {
-      "about_title": "ABOUT TCCF",
-      "about_description": "Taiwan Creative Content Fest (TCCF)” is a major annual event in the Asian creative content industry, attracting buyers and sellers internationally to converge and engage in networking and commercial negotiations. Divided into three main sections⸺PITCHING, MARKET, and FORUM⸺TCCF provides business services for the cultural content industry. By matching promising IPs with international financiers, driving commercial transactions and development between professionals worldwide, and facilitating the exchange of practical experiences and future industry trends, TCCF acts as a bridge that connects content creators and professional talents with industry resources."
-    },
+  "IndexPage": {
+    "about": "ABOUT TCCF",
+    "about_description": "Taiwan Creative Content Fest (TCCF)” is a major annual event in the Asian creative content industry, attracting buyers and sellers internationally to converge and engage in networking and commercial negotiations. Divided into three main sections⸺PITCHING, MARKET, and FORUM⸺TCCF provides business services for the cultural content industry. By matching promising IPs with international financiers, driving commercial transactions and development between professionals worldwide, and facilitating the exchange of practical experiences and future industry trends, TCCF acts as a bridge that connects content creators and professional talents with industry resources.",
+    "pitching": "PITCHING",
+    "pitching_description": "TCCF PITCHING brings together promising content proposals from domestic and international markets, including feature films, series, animations, documentaries, publishing, comics, and original story concepts. It attracts professionals from the global content industry, facilitating the matching of proposals with international resources and funding, thereby fostering the creation of globally popular works. Selected teams will have the opportunity to compete for sponsored awards and prizes provided by TAICCA and other organizations.<br></br><br></br>The 2024 TCCF PITCHING conference will officially take place from November 5th (Tuesday) to November 8th (Friday) at Taipei’s Skylight Convention Center, Nangang Exhibition Center, Hall 2, 7F. It will be divided into two main sections: “Project to Screen” and “Story to Screen”. Showcasing highly promising film and television projects and story proposals, TCCF PITCHING is the premier destination for international industry professionals seeking original content from Asia!",
+    "market": "MARKET",
+    "market_description": "“TCCF MARKET” focuses on facilitating rights transactions of international audiovisual content and promising IPs, expanding integration within the industry chain. MARKET encompasses operators and professionals from sectors as exemplified by content development, filming resources, and visual technologies, serving as a platform to explore opportunities for commercial collaboration and networking, thereby expanding the global market.",
+    "forum": "FORUM",
+    "forum_description": "The FORUM section delves into international collaboration and invites key figures from the domestic and international content industries to share practical experiences and future industry trends, offering insights into the forefront of diverse international collaborations and industry dynamics."
+  },
     "Nav": {
       "about": "ABOUT TCCF",
       "pitching": "PITCHING",
@@ -46,7 +52,7 @@
         "list_item_1": "June-July: Call for projects begins",
         "list_item_2": "Early September: Announcement of selected entries for each session",
         "list_item_3": "October: Purchase of TCCF badges and registration for each session open to domestic and international professionals",
-        "list_item_4": "November 8-11: TCCF PITCHING"
+        "list_item_4": "November 5-8: TCCF PITCHING"
       },
       "notice": {
         "notice_item_1": "* Registration: Please click on the “Project to Screen” and “Story to Screen” options on the left menu, and be sure to read the registration guidelines carefully before entering the registration system.",
@@ -244,10 +250,10 @@
       "title": "Call for Projects: Over $3 Million Investment for International Audiovisual Contents at TCCF PITCHING 2024",
       "paragraph_1": "Taiwan Creative Content Agency (TAICCA) is pleased to announce that the 5th Taiwan Creative Content Fest (TCCF) will take place from November 5th to 8th at the Taipei Nangang Exhibition Center. The “Project to Screen” section continues to invite international submissions, with expected total investment resources of over USD 3 million provided.",
       "paragraph_title_1": "“Project to Screen” :  Facilitating Production and Market Access",
-      "paragraph_2": "The \"Project to Screen\" section includes four categories: feature films, series, animation, and documentaries. Submissions open on June 3rd and will undergo evaluation by a panel of international juries. Selected entries will receive training resources and present proposals during TCCF, with accommodation subsidies offered. One outstanding project will be awarded the \"Project to Screen: Best Project\" award and a prize of USD 30,000.<br></br><br></br> TCCF award winners are making significant impacts and gaining recognition at prestigious film festivals and markets. The documentary \"After the Snowmelt,\" winner of the \"TAICCA X CNC AWARD\" in TCCF 2023, has since been selected to multiple international film festivals, including Visions du Réel in Switzerland, Jeonju International Film Festival in South Korea, Trento Film Festival in Italy, and Millennium Docs Against Gravity in Poland, showcasing Taiwan's cultural and content strengths on the global stage.<br></br><br></br>Aside from projects selected from the TCCF Project to Screen open call, ones from TAICCA’s workshop in collaboration with “Festival des 3 Continents / Produire au Sud,” “Series Mania Institute,” and audiovisual professionals from South Korea, will also be presented in respected pitching sessions.",
+      "paragraph_2": "The \"Project to Screen\" section includes four categories: feature films, series, animation, and documentaries. Submissions open on June 3rd and will undergo evaluation by a panel of international juries. Selected entries will receive training resources and present proposals during TCCF, with accommodation subsidies offered. One outstanding project will be awarded the \"Project to Screen: Best Project\" award and a prize of USD 30,000.<br></br><br></br>",
       "paragraph_2_1":"All selected projects can apply for TAICCA's  “<link>Creative Content Development Program (CCDP) - Development Fund</link>” ",
       "paragraph_2_2":"and “<link>Taiwan’s International Co-funding Program 2.0 (TICP 2.0) Option 2</link>“ within two years. The total funding surpasses USD 3 million, providing resources to advance project development and establish connections within the market. Both initiatives have helped build on success at the Berlinale and Cannes Film Festival in 2024, paving the way for high-quality works with international marketability.",
-      "paragraph_2_3": "<br></br><br></br>TCCF 2024 continues to collaborate with international festivals, markets, and organizations to promote audiovisual works and talents to the European and global markets. One project selected by Series Mania is invited to participate in the 2025 event. The BIFAN NAFF Project Market, Focus Asia-All Genres Market, and the MIFFest Project Market will also select project proposals from TCCF to participate in upcoming events.<br></br><br></br>",
+      "paragraph_2_3": "<br></br><br></br>TCCF 2024 continues to collaborate with international festivals, markets, and organizations to promote audiovisual works and talents to the European and global markets. One project selected by Series Mania is invited to participate in the 2025 event. The BIFAN NAFF Project Market, Focus Asia-All Genres Market, and the MIFFest Project Market will also select project proposals from TCCF to participate in upcoming events.<br></br><br></br>TCCF award winners are making significant impacts and gaining recognition at prestigious film festivals and markets. The documentary \"After the Snowmelt,\" winner of the \"TAICCA X CNC AWARD\" in TCCF 2023, has since been selected to multiple international film festivals, including Visions du Réel in Switzerland, Jeonju International Film Festival in South Korea, Trento Film Festival in Italy, and Millennium Docs Against Gravity in Poland, showcasing Taiwan's cultural and content strengths on the global stage.<br></br><br></br>Aside from projects selected from the TCCF Project to Screen open call, ones from TAICCA’s workshop in collaboration with “Festival des 3 Continents / Produire au Sud,” “Series Mania Institute,” and audiovisual professionals from South Korea, will also be presented in respected pitching sessions.",
       "paragraph_title_2": "“Story to Screen” Sessions: Showcase of Adaptation Potential for Industry Buyers",
       "paragraph_3": "Another section of TCCF PITCHING \"Story to Screen\" recommends story IPs with adaptation potential, including fiction and non-fiction, comics, and original story concepts. Along with “Shoot the Book! TCCF” session - a collaboration with SCELF, ”Story to Screen” will present Taiwanese and French stories with marketability to domestic and international buyers and professionals, aiming to facilitate adaptations, foster collaborations, and expand the reach of compelling narratives.‍",
       "paragraph_title_3": "“Elevating Taiwan's Creative Industry: TAICCA Pioneers Collaboration and Funding",
@@ -475,13 +481,14 @@
         "title": "Project to Screen: ",
         "list_item_1": "Selected projects will be eligible to apply for CCDP and TICP2.0 (Option 2). However, they must still adhere to the application procedures for these projects in the respective year. Additionally, applicants for TICP2.0 need to pass the investment committee convened by TAICCA to access resources (for detailed application methods, please refer to TAICCA official website).",
         "sublist_1": {
-          "sublist_item_1": "Application period: Before December 31st, 2026."
-        },
-        "list_item_2": "Selected projects will be promoted through various channels. International buyers will choose one project from all four sessions to win US$30,000. Story to Screen: Selected stories will be promoted through various channels. Local judges will choose one story from the \"Fiction & Non-Fictiont\" and \"Comics\" sessions to win NT$300,000."
+          "sublist_item_1": "Application period: Before December 31st, 2026.",
+          "sublist_item_2": "Selected projects will be promoted through various channels. International buyers will choose one project from all four sessions to win US$30,000. Story to Screen: Selected stories will be promoted through various channels. Local judges will choose one story from the \"Fiction & Non-Fictiont\" and \"Comics\" sessions to win NT$300,000."
+        }
+       
       },
       "list_9": {
-        "title": "Story to Screen 故事專場：",
-        "list_item_1": "入選作品除將透過多元管道宣傳曝光，專業評審亦將從出版文本、漫畫兩專場的入選作品中，挑出一件作品頒發新台幣 30 萬元獎金。"
+        "title": "Story to Screen: ",
+        "list_item_1": "Selected stories will be promoted through various channels. Local judges will choose one story from the \"Fiction & Non-Fictiont\" and \"Comics\" sessions to win NT$300,000."
       },
       "paragraph_title_6": "Regulations",
       "list_10": {

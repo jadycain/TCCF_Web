@@ -180,9 +180,9 @@ export default function SubmissionPage() {
                 {t("list_8.list_item_1")}
                 <ul>
                   <li>{t("list_8.sublist_1.sublist_item_1")}</li>
+                  <li>{t("list_8.sublist_1.sublist_item_2")}</li>
                 </ul>
               </li>
-              <li>{t("list_8.list_item_2")}</li>
             </ol>
             <ul className="pageWrapper__container_contentWrapper__content_noneList">
               <div className="pageWrapper__container_contentWrapper__content_noneList__title">
