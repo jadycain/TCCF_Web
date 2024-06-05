@@ -1,15 +1,9 @@
 import ImageLoader from "@/app/[locale]/components/ui/image-loader";
-import { Fragment } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/navigation";
 
 const NewsDetailPage = () => {
   const t = useTranslations("ArticlePage_20231115");
-  // const data = articleData.filter((item) => item.id === params.id)[0];
-  //   const article = await getArticle(params.id);
-
-  // const data = articleJson.filter((item) => item.id == params.id)[0];
-  // console.log(data);
   return (
     <div className="articleWrapper">
       <div className="articleWrapper__container">

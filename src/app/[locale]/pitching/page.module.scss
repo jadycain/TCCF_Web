@@ -5,7 +5,8 @@
 
     position: absolute;
     bottom: 0;
-   height: 100%;
+    left: -20vw;
+    height: 100%;
     width: 100%;
    
     @include RWD(lg){
@@ -21,8 +22,7 @@
         
         position: absolute;
         z-index: 0;
-        left: -55%;
-        bottom: 0;
+        object-position: -30vw 0;
         opacity: 0.9;
         
 

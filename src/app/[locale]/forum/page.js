@@ -1,6 +1,5 @@
 import styles from "./page.module.scss";
 import ImageLoader from "../components/ui/image-loader";
-import Button from "../components/ui/button";
 import { useTranslations } from "next-intl";
 
 export default function ForumPage() {

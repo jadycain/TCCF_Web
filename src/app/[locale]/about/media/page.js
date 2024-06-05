@@ -1,5 +1,4 @@
 "use client";
-import { useState } from "react";
 import styles from "./page.module.scss";
 import Button from "@/app/[locale]/components/ui/button";
 import { FiFileText } from "react-icons/fi";

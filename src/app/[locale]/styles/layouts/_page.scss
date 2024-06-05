@@ -7,6 +7,7 @@
     justify-content: center;
     width: calc(100% - 250px);
     padding-top: 100px;
+    
 
     @include RWD(sp820) {
         width: 100%;
@@ -55,6 +56,7 @@
               
                 text-align: justify;
                 min-height: calc(100vh - 300px);
+                min-height: calc((var(--vh, 1vh) * 100) - 300px);
                 width: 100%;
         
 

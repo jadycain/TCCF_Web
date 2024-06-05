@@ -1,9 +1,6 @@
 import styles from "./page.module.scss";
 import ImageLoader from "../components/ui/image-loader";
-import Button from "../components/ui/button";
 import { useTranslations } from "next-intl";
-import parse from "html-react-parser";
-import { FormattedMessage } from "react-intl";
 
 export default function PitchingPage() {
   const t = useTranslations("PitichingPage");

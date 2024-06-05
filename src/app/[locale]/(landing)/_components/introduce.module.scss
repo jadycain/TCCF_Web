@@ -8,7 +8,7 @@
     min-height:  calc((var(--vh, 1vh) * 100) - 100px);
     height: 100%;
     position: relative;
-    padding: 100px 0;
+    padding: 100px 0 125px 0;
 
     @include RWD(sp820){
 
@@ -92,7 +92,7 @@
             }
 
             &__buttonWrapper {
-                margin-top: 50px;
+                margin-top: 40px;
                 text-align: center;
 
                 @include RWD(sp820){

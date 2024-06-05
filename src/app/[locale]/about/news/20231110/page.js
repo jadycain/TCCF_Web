@@ -1,5 +1,4 @@
 import ImageLoader from "@/app/[locale]/components/ui/image-loader";
-import { Fragment } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/navigation";
 
