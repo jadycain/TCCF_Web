@@ -35,7 +35,7 @@ const poppins = Poppins({
 export const metadata = {
   title: "TCCF | YOUR BEST PARTNER IN ASIA",
   description:
-    "2023年TCCF將於11月7日至11月12日於松山文創園區舉辦，共分「Market」、「Pitching」與「Innovations」三大單元。「Market」提供線上線下作品展示空間與交易洽商服務，持續推動臺灣影視作品與潛力IP進入國際通路，今年更首度邀請影視與未來內容產業相關業者，提供國內外與會者更多的產製鏈技術選擇。",
+    "「2024 TCCF 創意內容大會」是亞洲重要內容產業盛會，每年吸引全球多國買賣家齊聚交流洽商，共分成「PITCHING 提案大會」、「MARKET 市場展」與「FORUM 國際論壇」三大單元，將於 11 月 5 日 至 8 日於南港展覽館二館 7 樓舉行。",
 };
 
 export default async function RootLayout({ children, params: { locale } }) {
